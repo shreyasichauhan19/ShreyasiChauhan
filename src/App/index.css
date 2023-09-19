@@ -82,7 +82,7 @@ polyline {
 
 .blob {
   animation: morph 3.6s linear infinite;
-  background: #f6f099;
+  background: #CAFBFF;
   border-collapse: separate;
   background-size: cover;
   background-position: center;

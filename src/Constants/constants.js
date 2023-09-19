@@ -154,73 +154,185 @@ const memoji = {
 
 const skills = [
   {
-    id: 'html',
-    icon: htmlIcon,
-    description: 'olaaaaaaaa',
-  },
-  {
-    id: 'css',
-    icon: cssIcon,
-    description: 'olaaaaaaaa',
-  },
-  {
-    id: 'javascript',
-    icon: jsIcon,
-    description: 'olaaaaaaaa',
-  },
-  {
-    id: 'react',
-    icon: reactIcon,
-    description: 'olaaaaaaaa',
-  },
-  {
-    id: 'java',
+    id: 'Java',
     icon: javaIcon,
+    description: 'Java',
   },
   {
-    id: 'aws',
-    icon: awsIcon,
+    id: 'JavaScript',
+    icon: javaIcon,
+    description: 'JavaScript',
   },
   {
-    id: 'figma',
-    icon: figmaIcon,
+    id: 'Python',
+    icon: javaIcon,
+    description: 'Python',
   },
   {
-    id: 'git',
-    icon: gitIcon,
+    id: 'SQL',
+    icon: javaIcon,
+    description: 'SQL',
   },
   {
-    id: 'github',
-    icon: githubIcon,
+    id: 'HTML',
+    icon: javaIcon,
+    description: 'HTML',
   },
   {
-    id: 'psql',
-    icon: psqlIcon,
+    id: 'CSS',
+    icon: javaIcon,
+    description: 'CSS',
   },
   {
-    id: 'vite',
-    icon: viteIcon,
+    id: 'Node',
+    icon: javaIcon,
+    description: 'Node',
   },
   {
-    id: 'py',
-    icon: pyIcon,
+    id: 'React',
+    icon: javaIcon,
+    description: 'React',
   },
   {
-    id: 'node',
-    icon: nodeIcon,
+    id: 'Vite',
+    icon: javaIcon,
+    description: 'Vite',
   },
   {
-    id: 'neo',
-    icon: neoIcon,
+    id: 'Tailwind',
+    icon: javaIcon,
+    description: 'Tailwind',
   },
   {
-    id: 'raspi',
-    icon: raspIcon,
+    id: 'RPA',
+    icon: javaIcon,
+    description: 'RPA',
   },
   {
-    id: 'eslint',
-    icon: eslintIcon,
+    id: 'Git',
+    icon: javaIcon,
+    description: 'Git',
   },
+  {
+    id: 'Jenkins',
+    icon: javaIcon,
+    description: 'Jenkins',
+  },
+  {
+    id: 'Gradle',
+    icon: javaIcon,
+    description: 'Gradle',
+  },
+  {
+    id: 'CLI',
+    icon: javaIcon,
+    description: 'CLI',
+  },
+  {
+    id: 'Visual Studio',
+    icon: javaIcon,
+    description: 'Visual Studio',
+  },
+  {
+    id: 'CI/CD',
+    icon: javaIcon,
+    description: 'CI/CD',
+  },
+  {
+    id: 'DBeaver',
+    icon: javaIcon,
+    description: 'DBeaver',
+  },
+  {
+    id: 'Docker',
+    icon: javaIcon,
+    description: 'Docker',
+  },
+  {
+    id: 'Chef',
+    icon: javaIcon,
+    description: 'Chef',
+  },
+  {
+    id: 'AWS',
+    icon: javaIcon,
+    description: 'AWS',
+  },
+  {
+    id: 'Wireshark',
+    icon: javaIcon,
+    description: 'Wireshark',
+  },
+  {
+    id: 'Networking Protocols',
+    icon: javaIcon,
+    description: 'Networking Protocols',
+  },
+  {
+    id: 'Shopify Dev',
+    icon: javaIcon,
+    description: 'Shopify Dev',
+  },
+  {
+    id: 'Stripe',
+    icon: javaIcon,
+    description: 'Stripe',
+  },
+  {
+    id: 'GoogleAPIs',
+    icon: javaIcon,
+    description: 'GoogleAPI',
+  },
+  {
+    id: 'Nexus',
+    icon: javaIcon,
+    description: 'Nexus',
+  },
+  {
+    id: 'Data Structures',
+    icon: javaIcon,
+    description: 'Data Structures',
+  },
+  {
+    id: 'Algorithms',
+    icon: javaIcon,
+    description: 'Algorithms',
+  },
+  {
+    id: 'OOP',
+    icon: javaIcon,
+    description: 'OOP',
+  },
+  {
+    id: 'Agile Development',
+    icon: javaIcon,
+    description: 'Agile Development',
+  }, 
+  {
+    id: 'Networking',
+    icon: javaIcon,
+    description: 'Networking',
+  }, 
+  {
+    id: 'Project Management',
+    icon: javaIcon,
+    description: 'Project Management',
+  }, 
+  {
+    id: 'Debugging',
+    icon: javaIcon,
+    description: 'Debugging',
+  }, 
+  {
+    id: 'Threading',
+    icon: javaIcon,
+    description: 'Threading',
+  },
+  {
+    id: 'Client/Server Architecture',
+    icon: javaIcon,
+    description: 'Client/Server Architecture',
+  }, 
 ];
 
 const markerSvg = `<svg viewBox="-4 0 36 36">

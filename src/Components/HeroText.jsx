@@ -5,7 +5,7 @@ const HeroText = () => {
 
   return (
     <div
-      className="noselect w-fit h-fit text-grayscale-50 absolute z-10 flex flex-col justify-center items-center rounded-[50%]"
+      className="noselect w-fit h-fit text-primary-900 absolute z-10 flex flex-col justify-center items-center rounded-[50%]"
       id="repulse-div"
     >
       <LazyMotion features={domAnimation} strict>
@@ -35,7 +35,7 @@ const HeroText = () => {
               return (
                 <span
                   key={index}
-                  className="text-primary-400 bounce"
+                  className="text-primary-900 bounce"
                   style={{ fontSize: "1.2em" }}
                 >
                   {char}

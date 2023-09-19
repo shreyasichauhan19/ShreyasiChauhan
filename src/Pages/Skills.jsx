@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <div id="skills" className="w-full overflow-hidden-web flex justify-center">
       <div className="w-full min-h-[100px] flex flex-col xl:w-[70%]">
-        <div className="w-full">
+        <div className="w-full mt-20 ">
           <SectionTitle title="SKILLS" subtitle="WHAT I DO" />
         </div>
         <div className="xl:border-l-2 xl:border-r-2 xl:border-primary-400 h-full">

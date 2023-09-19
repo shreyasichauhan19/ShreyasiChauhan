@@ -28,8 +28,8 @@ const Projects = () => {
 
   return (
     <div id="projects" className="w-full overflow-hidden-web flex justify-center">
-      <div className="w-full min-h-screen relative mt-60 flex flex-col items-center justify-center pb-6">
-        <div className="w-[80%] h-[20%] mt-[-5%] mb-[10%]">
+      <div className="w-0% min-h-screen relative mt-60 flex flex-col items-center justify-center pb-6">
+        <div className="w-80% h-[20%] mt-[15%] mb-[10%]">
           <SectionTitle title="TECHNICAL PROJECTS" subtitle="What I have done so far" />
         </div>
         <div className="w-[80%] flex flex-wrap justify-center">

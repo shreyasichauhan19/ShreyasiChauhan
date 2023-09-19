@@ -16,6 +16,7 @@ export default {
         500: '#5C546B',
         600: '#CDBCEB',
         800: '#F4511E',
+        900: '#5c5c5c'
       },
       grayscale: {
         50: '#ffffff',
