@@ -3,7 +3,6 @@ import Hero from "../Pages/Hero";
 import Projects from "../Pages/Projects";
 import About from "../Pages/About";
 import Skills from "../Pages/Skills";
-import NonTechProjects from "../Pages/NonTechProjects";
 function App() {
   return (
     <>
@@ -11,9 +10,7 @@ function App() {
       <Hero />
       <About />
       <Skills />
-      <Projects />
-      <NonTechProjects />
-     
+      <Projects />     
     </>
   );
 }
