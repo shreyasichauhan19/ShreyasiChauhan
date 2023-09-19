@@ -206,7 +206,7 @@ export const heroOptions = {
     lineLinked: {
       blink: false,
       color: {
-        value: '#ffffff',
+        value: '#cbbde5',
       },
       consent: true,
       distance: 100,

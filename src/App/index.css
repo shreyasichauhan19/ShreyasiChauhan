@@ -16,8 +16,7 @@
 }
 
 body {
-  background: url("https://images.app.goo.gl/jtkVRs7S179G9dbN8");
-  background-color: #e89aed;
+  background-color: #fff9f5;
   position: relative;
   overflow-x: hidden;
   -webkit-overflow-x: hidden;
@@ -42,13 +41,13 @@ body {
 #repulse-div {
   -webkit-appearance: none;
   appearance: none;
-  -webkit-filter: drop-shadow(0 0 5rem #292D44);
-  filter: drop-shadow(0 0 5rem #292D44);
+  -webkit-filter: drop-shadow(0 0 5rem #da5454);
+  filter: drop-shadow(0 0 5rem #c6e26c);
 }
 
 #repulse-div > h1 {
-  -webkit-filter: drop-shadow(0 0 5rem #292D44);
-  filter: drop-shadow(0 0 5rem #292D44);
+  -webkit-filter: drop-shadow(0 0 5rem #d3d0f9);
+  filter: drop-shadow(0 0 5rem #f3d9f4);
 }
 
 #journey-scroll::-webkit-scrollbar {
@@ -83,7 +82,7 @@ polyline {
 
 .blob {
   animation: morph 3.6s linear infinite;
-  background: #292D44;
+  background: #f6f099;
   border-collapse: separate;
   background-size: cover;
   background-position: center;
