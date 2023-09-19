@@ -16,7 +16,7 @@
 }
 
 body {
-  background-color: #fff9f5;
+  background-color: #fdfdfa;
   position: relative;
   overflow-x: hidden;
   -webkit-overflow-x: hidden;
@@ -41,13 +41,13 @@ body {
 #repulse-div {
   -webkit-appearance: none;
   appearance: none;
-  -webkit-filter: drop-shadow(0 0 5rem #da5454);
-  filter: drop-shadow(0 0 5rem #c6e26c);
+  -webkit-filter: drop-shadow(0 0 5rem #8eda54);
+  filter: drop-shadow(0 0 5rem #ffd8bd);
 }
 
 #repulse-div > h1 {
-  -webkit-filter: drop-shadow(0 0 5rem #d3d0f9);
-  filter: drop-shadow(0 0 5rem #f3d9f4);
+  -webkit-filter: drop-shadow(0 0 5rem #201c5c);
+  filter: drop-shadow(0 0 2rem #ffdeed);
 }
 
 #journey-scroll::-webkit-scrollbar {
@@ -62,7 +62,7 @@ body {
 .arrowpath,
 polyline {
   fill: none;
-  stroke: #515152;
+  stroke: #b8b8b8;
   vector-effect: non-scaling-stroke;
   stroke-width: 2;
 }
@@ -115,7 +115,7 @@ polyline {
 .bounce:hover {
   display: inline-block;
   animation: rubberband 0.8s ease-out;
-  color: #f4b2d4;
+  color: #fedeff;
 }
 
 @keyframes rubberband {

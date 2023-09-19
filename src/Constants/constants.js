@@ -156,20 +156,22 @@ const skills = [
   {
     id: 'html',
     icon: htmlIcon,
-
+    description: 'olaaaaaaaa',
   },
   {
     id: 'css',
     icon: cssIcon,
+    description: 'olaaaaaaaa',
   },
   {
     id: 'javascript',
     icon: jsIcon,
+    description: 'olaaaaaaaa',
   },
   {
     id: 'react',
     icon: reactIcon,
-
+    description: 'olaaaaaaaa',
   },
   {
     id: 'java',

@@ -27,9 +27,8 @@ const About = () => {
                 className="text-grayscale-50 p-6 text-center flex flex-col gap-6"
               >
                 <span className="text-primary-400">{introduction.text[0]}</span>
-                <span>{introduction.text[1]}</span>
-                <span>{introduction.text[2]}</span>
-                <span>{introduction.text[3]}</span>
+                <span className="text-primary-800" >{introduction.text[1]}</span>
+                <span className="text-primary-800" >{introduction.text[2]}</span>
               </m.p>
             </LazyMotion>
           </div>

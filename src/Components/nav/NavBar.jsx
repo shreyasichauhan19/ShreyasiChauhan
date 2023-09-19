@@ -28,7 +28,7 @@ const Navbar = () => {
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
           </p>
         </Link>
-        <ul className="list-none hidden sm:flex flex-row gap-10"  style={{ color: '#FFFFFF' }}>
+        <ul className="list-none hidden sm:flex flex-row gap-10"  style={{ color: 'black' }}>
           {navLinks.map((link) => {
             return (
               <li

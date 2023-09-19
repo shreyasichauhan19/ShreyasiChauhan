@@ -101,7 +101,7 @@ const SectionWrapper = (Component, idName) =>
         initial='hidden'
         whileInView='show'
         viewport={{ once: true, amount: 0.25 }}
-        className={`${styles.padding} max-w-7xl mx-auto relative z-0 my-[-17%] w-[500%]`}
+        className={`${styles.padding} max-w-7xl mx-auto relative z-0  w-[500%]`}
         style={{ marginLeft: "-20%" }}
       >
         <span className='hash-span' id={idName}>
@@ -123,8 +123,8 @@ const SectionWrapper = (Component, idName) =>
             scale: 1,
             speed: 450
           }}
-          className='text-grayscale-50 p-5 rounded-lg sm:w-[280px] w-full'
-          style={{ marginTop: '-120%' }}
+          className='text-primary-400 p-5 rounded-lg sm:w-[280px] w-full ml-[-12]'
+          style={{ marginTop: '-150%' }}
           >
           <div
             className="relative w-full h-[180px]"
@@ -186,7 +186,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className=" flex flex-wrap gap-7">
         {nonTechProjects.map((nonTechProjects, index) => (
           <NonTechProjectsCard 
             key={`nonTechProjects-${index}`}

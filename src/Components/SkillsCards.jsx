@@ -17,7 +17,7 @@ const SkillsCards = () => {
           }}
           style={{ zIndex: `${index + 1}`, transition: "all 0.6s" }}
           key={index}
-          className="card w-[140px] h-[100px] flex flex-col items-center  bg-primary-400 rounded-xl border-4 border-primary-600 cursor-pointer"
+          className="card w-[220px] h-[150px] flex flex-col items-center  bg-primary-400 rounded-xl border-4 border-primary-600 cursor-pointer"
         >
           <div className="w-full h-[60px] flex items-center gap-2 p-1 flex-col">
             <img
@@ -37,7 +37,7 @@ const SkillsCards = () => {
               className="text-center bg-primary-400 text-grayscale-950 rounded-xl text-sm p-4"
               style={{
                 fontFamily: "Poppins, sans-serif",
-                fontSize: "12px", 
+                fontSize: "20px", 
                 fontWeight: "200",
               }}
             >

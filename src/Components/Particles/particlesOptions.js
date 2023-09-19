@@ -87,7 +87,7 @@ export const heroOptions = {
         duration: 0.4,
         size: 40,
         color: {
-          value: '#cbbde5',
+          value: '#CBBDE5',
         },
         opacity: 8,
         mix: false,
@@ -108,7 +108,7 @@ export const heroOptions = {
       mode: 'bounce',
     },
     color: {
-      value: '#fff',
+      value: '##CBBDE5',
     },
     move: {
       angle: {
@@ -144,7 +144,7 @@ export const heroOptions = {
       animation: {
         count: 0,
         enable: true,
-        speed: 0.2,
+        speed: 0.4,
         decay: 0,
         sync: true,
         destroy: 'none',
@@ -195,7 +195,7 @@ export const heroOptions = {
       animation: {
         count: 0,
         enable: true,
-        speed: 0.2,
+        speed: 0.4,
         decay: 0,
         sync: true,
         destroy: 'none',
@@ -206,13 +206,13 @@ export const heroOptions = {
     lineLinked: {
       blink: false,
       color: {
-        value: '#cbbde5',
+        value: '#CBBDE5',
       },
       consent: true,
       distance: 100,
       enable: true,
       frequency: 10,
-      opacity: 0.4,
+      opacity: 0.7,
       width: 1,
     },
   },
