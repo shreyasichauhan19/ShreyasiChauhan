@@ -15,16 +15,16 @@ const WorkExperienceCards = ({ jobTitle, company, description, date }) => {
             {/* SVG path here */}
           </svg>
         </div>
-        <div className="mb-10 ml-6 block max-w-2xl rounded-lg bg-neutral-50 p-6 shadow-md shadow-black/5 dark:bg-neutral-700 dark:shadow-black/10">
+        <div className="mb-10 ml-6 block max-w-3xl rounded-lg bg-neutral-50 p-6 shadow-md shadow-black/5 dark:bg-neutral-700 dark:shadow-black/10">
           <div className="mb-4 flex justify-between">
             <a
-              className="text-xl text-primary-700 transition duration-150 ease-in-out hover:text-info-600 focus:text-info-600 active:text-info-700"
+              className="text-2xl text-primary-700 transition duration-150 ease-in-out hover:text-info-600 focus:text-info-600 active:text-info-700"
             >
               {jobTitle}
             </a>
             <a
               href="#!"
-              className="text-l text-info transition duration-150 ease-in-out hover:text-info-600 focus:text-info-600 active:text-info-700"
+              className="text-xl text-primary-900 text-info transition duration-150 ease-in-out hover:text-info-600 focus:text-info-600 active:text-info-700"
             >
               {company}
             </a>
@@ -35,7 +35,7 @@ const WorkExperienceCards = ({ jobTitle, company, description, date }) => {
                 fontWeight: "400",
               }}>{description}</p>
           <a
-            className="text-sm text-info transition duration-150 ease-in-out hover:text-info-600 focus:text-info-600 active:text-info-700"
+            className="text-l text-primary-900 text-info transition duration-150 ease-in-out hover:text-info-600 focus:text-info-600 active:text-info-700"
           >
             {date}
           </a>
