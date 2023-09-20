@@ -18,7 +18,6 @@ const WorkExperienceCards = ({ jobTitle, company, description, date }) => {
         <div className="mb-10 ml-6 block max-w-2xl rounded-lg bg-neutral-50 p-6 shadow-md shadow-black/5 dark:bg-neutral-700 dark:shadow-black/10">
           <div className="mb-4 flex justify-between">
             <a
-              href="#!"
               className="text-xl text-primary-700 transition duration-150 ease-in-out hover:text-info-600 focus:text-info-600 active:text-info-700"
             >
               {jobTitle}
@@ -30,9 +29,12 @@ const WorkExperienceCards = ({ jobTitle, company, description, date }) => {
               {company}
             </a>
           </div>
-          <p className="mb-6 text-primary-500">{description}</p>
+          <p className="mb-6 text-grayscale-300"  style={{
+                fontFamily: "Quicksand",
+                fontSize: "18px", 
+                fontWeight: "400",
+              }}>{description}</p>
           <a
-            href="#!"
             className="text-sm text-info transition duration-150 ease-in-out hover:text-info-600 focus:text-info-600 active:text-info-700"
           >
             {date}

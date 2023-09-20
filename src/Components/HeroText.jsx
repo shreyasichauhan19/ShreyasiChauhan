@@ -21,7 +21,7 @@ const HeroText = () => {
             whileInView={{ x: 0 }}
             transition={{ duration: 0.6, type: "spring" }}
           >
-            Shreyasi{" "}
+            Website Under Construction Shreyasi{" "}
           </m.span>
           <m.div
             initial={{ x: 100 }}
@@ -35,7 +35,7 @@ const HeroText = () => {
               return (
                 <span
                   key={index}
-                  className="text-primary-900 bounce"
+                  className="text-primary-500 bounce"
                   style={{ fontSize: "1.2em" }}
                 >
                   {char}
