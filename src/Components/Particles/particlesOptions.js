@@ -87,7 +87,7 @@ export const heroOptions = {
         duration: 0.4,
         size: 40,
         color: {
-          value: '#CBBDE5',
+          value: '#F483B4',
         },
         opacity: 8,
         mix: false,
@@ -108,7 +108,7 @@ export const heroOptions = {
       mode: 'bounce',
     },
     color: {
-      value: '##CBBDE5',
+      value: '#F483B4',
     },
     move: {
       angle: {
@@ -137,10 +137,10 @@ export const heroOptions = {
     opacity: {
       random: {
         enable: true,
-        minimumValue: 0.4,
-        maxValue: 0.6,
+        minimumValue: 0.1,
+        maxValue: 0.2,
       },
-      value: 0.6,
+      value: 0.3,
       animation: {
         count: 0,
         enable: true,
@@ -156,28 +156,28 @@ export const heroOptions = {
       type: 'character',
       character: [
         {
-          fill: true,
+          fill: false,
           font: 'Font Awesome 6 Brands',
           style: '',
           value: ['\uf13b'],
           weight: '400',
         },
         {
-          fill: true,
+          fill: false,
           font: 'Font Awesome 6 Brands',
           style: '',
           value: ['\uf38b'],
           weight: '400',
         },
         {
-          fill: true,
+          fill: false,
           font: 'Font Awesome 6 Brands',
           style: '',
           value: ['\uf3b9'],
           weight: '400',
         },
         {
-          fill: true,
+          fill: false,
           font: 'Font Awesome 6 Brands',
           style: '',
           value: ['\uf41b'],
@@ -195,7 +195,7 @@ export const heroOptions = {
       animation: {
         count: 0,
         enable: true,
-        speed: 0.4,
+        speed: 0.2,
         decay: 0,
         sync: true,
         destroy: 'none',
@@ -206,13 +206,13 @@ export const heroOptions = {
     lineLinked: {
       blink: false,
       color: {
-        value: '#CBBDE5',
+        value: '#F483B4',
       },
       consent: true,
-      distance: 100,
+      distance: 70,
       enable: true,
       frequency: 10,
-      opacity: 0.7,
+      opacity: 0.6,
       width: 1,
     },
   },

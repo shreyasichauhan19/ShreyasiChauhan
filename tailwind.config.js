@@ -12,16 +12,16 @@ export default {
     },
     colors: {
       primary: {
-        400: '#cbbde5',
-        500: '#5C546B',
-        600: '#CDBCEB',
-        800: '#F4511E',
-        900: '#5c5c5c'
+        400: '#A0DB9E', //cute green
+        500: '#F483B4', //cute pink
+        600: '#BDADFF', //light purple
+        700: '#6bc1db'  //moonstoneblue
       },
       grayscale: {
         50: '#ffffff',
         100: '#efefef',
         200: '#FDFDFF',
+        300: '#454444',
         950: '#16161b',
       },
     },
