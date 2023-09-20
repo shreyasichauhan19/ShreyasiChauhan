@@ -15,7 +15,7 @@ const WorkExperienceCards = ({ jobTitle, company, description, date }) => {
             {/* SVG path here */}
           </svg>
         </div>
-        <div className="mb-10 ml-6 block max-w-3xl rounded-lg bg-neutral-50 p-6 shadow-md shadow-black/5 dark:bg-neutral-700 dark:shadow-black/10">
+        <div className="mb-10 ml-6 block max-w-xl rounded-lg bg-neutral-50 p-6 shadow-md shadow-black/5 dark:bg-neutral-700 dark:shadow-black/10">
           <div className="mb-4 flex justify-between">
             <a
               className="text-2xl text-primary-700 transition duration-150 ease-in-out hover:text-info-600 focus:text-info-600 active:text-info-700"
@@ -31,7 +31,7 @@ const WorkExperienceCards = ({ jobTitle, company, description, date }) => {
           </div>
           <p className="mb-6 text-grayscale-300"  style={{
                 fontFamily: "Quicksand",
-                fontSize: "18px", 
+                fontSize: "14px", 
                 fontWeight: "400",
               }}>{description}</p>
           <a
