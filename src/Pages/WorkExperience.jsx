@@ -2,14 +2,12 @@ import React from 'react';
 
 const WorkExperience = () => {
   return (
-    <div className="w-full flex justify-center">
-    <div className="w-[80%] mt-10 mb-10">
-      <h3 className="mb-6 ml- mt-10 text-5xl font-bold text-neutral-700 dark:text-neutral-300">
+    <div className="w-[80%] flex justify-center">
+    <div className="w-[80%] mt-10 mb-10 ">
+      <h3 className="mb-6 mt-10 text-5xl font-bold text-primary-900 dark:text-neutral-300">
         Work Experience
       </h3>
       <ol className="border-l-2 border-info-100">
-            
-       
       <li>
           <div className="flex-start md:flex">
             <div className="-ml-[13px] flex h-[25px] w-[25px] items-center justify-center rounded-full bg-info-100 text-info-700">
@@ -30,22 +28,22 @@ const WorkExperience = () => {
               <div className="mb-4 flex justify-between">
                 <a
                   href="#!"
-                  className="text-sm text-info transition duration-150 ease-in-out hover:text-info-600 focus:text-info-600 active:text-info-700"
+                  className="text-xl text-info transition duration-150 ease-in-out hover:text-info-600 focus:text-info-600 active:text-info-700"
                 >
                   Hackathon Coach
                 </a>
                 <a
-                  href="#!"
-                  className="text-sm text-info transition duration-150 ease-in-out hover:text-info-600 focus:text-info-600 active:text-info-700"
+                  href="https://mlh.io/"
+                  className="text-l text-info transition duration-150 ease-in-out hover:text-info-600 focus:text-info-600 active:text-info-700"
                 >
                   Major League Hacking
                 </a>
               </div>
               <p className="mb-6 text-neutral-700 dark:text-neutral-200">
               Mentored and supported 25+ hackathons around the world.
-Conducted regular technical workshops on topics like - Github, Data Visualization, and Building a full-stack application.
-Worked with 3000+ hackers in less than 7 months. Judged 700+ technical hackathon projects. Successfully supported organizers of 5 hackathons to eliminate budgetary, logistical, and planning constraints. Providing expertise to help organize a seamless event.
-Acting as a link between MLH, organizers, attendees, and sponsors and maintaining clear communication with all parties throughout the process.
+              Conducted regular technical workshops on topics like - Github, Data Visualization, and Building a full-stack application.
+              Worked with 3000+ hackers in less than 7 months. Judged 700+ technical hackathon projects. Successfully supported organizers of 5 hackathons to eliminate budgetary, logistical, and planning constraints. Providing expertise to help organize a seamless event.
+              Acting as a link between MLH, organizers, attendees, and sponsors and maintaining clear communication with all parties throughout the process.
               </p>
 
               <a
@@ -82,17 +80,17 @@ Acting as a link between MLH, organizers, attendees, and sponsors and maintainin
                  Software Engineer (Co-op)
                 </a>
                 <a
-                  href="#!"
-                  className="text-sm text-info transition duration-150 ease-in-out hover:text-info-600 focus:text-info-600 active:text-info-700"
+                  href="https://www.cisco.com/site/ca/en/index.html?team=digital_marketing&medium=paid_search&campaign=campaign_independent&ccid=cc003683&dtid=pseggl000015&gclid=CjwKCAjwjaWoBhAmEiwAXz8DBZMkNWmfzi7Ot9Pa__jDzTc8csM_5Q7qyExAn8adoXBmkc1MeAqqMxoCLuoQAvD_BwE&gclsrc=aw.ds"
+                  className="text-l text-info transition duration-150 ease-in-out hover:text-info-600 focus:text-info-600 active:text-info-700"
                 >
                   Cisco
                 </a>
               </div>
               <p className="mb-6 text-neutral-700 dark:text-neutral-200">
               Optimized internal API with 400k+ calls, resolving a critical timeout bug. Adjusted timeout values for Apache Cassandra, ElasticSearch, MongoDB, and Redis to optimal values.
-Updated 10+ projects to use the latest version of JRuby (+ dependencies) ensuring the team is using the updated version and making their workflow seamless
-Collaborated with the team to investigate and resolve jar file compatibility issues caused by upgrading to Gradle v7.4. Fixed the bug by replacing Grubbyjar with Warble.
-Created, tested, and added an additional Flink cluster to reduce the load on the existing 4. Used Apache ZooKeeper to ensure the Task and Job Managers were communicating with each other.
+              Updated 10+ projects to use the latest version of JRuby (+ dependencies) ensuring the team is using the updated version and making their workflow seamless
+              Collaborated with the team to investigate and resolve jar file compatibility issues caused by upgrading to Gradle v7.4. Fixed the bug by replacing Grubbyjar with Warble.
+              Created, tested, and added an additional Flink cluster to reduce the load on the existing 4. Used Apache ZooKeeper to ensure the Task and Job Managers were communicating with each other.
               </p>
 
               <a
