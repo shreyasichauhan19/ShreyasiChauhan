@@ -39,6 +39,9 @@ import vernonCalendar from './projects/vernonCalendar.png';
 import gameOfAmazons from './projects/gameOfAmazons.png';
 import chatbot from './projects/chatbot.png';
 import acronym from './projects/acronym.png';
+import rpa from './projects/rpa.png';
+import portfolio from './projects/portfolio.png';
+
 // Avatar
 import avatar from './avatar/avatar.png';
 
@@ -62,7 +65,9 @@ export {
   shopify,
   jenkins,
   reactIcon,
+  portfolio,
   awsIcon,
+  rpa,
   javaIcon,
   gitIcon,
   githubIcon,

@@ -12,7 +12,7 @@ function App() {
       <About />
       <WorkExperience/>
       <Skills />
-      <Projects />  
+      <Projects /> 
     </>
   );
 }
