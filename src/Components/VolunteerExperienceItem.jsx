@@ -8,7 +8,7 @@ const VolunteerExperienceItem = ({ title, content }) => {
   };
 
   return (
-    <div className={`border border-neutral-200 bg-white dark:border-neutral-600 dark:bg-neutral-800 ${collapsed ? 'collapsed' : ''}`}>
+    <div className={`border bg-white dark:border-neutral-600 dark:bg-neutral-800 ${collapsed ? 'collapsed' : ''}`}>
       <h2 className="mb-0">
         <button
           className="group relative flex w-full items-center rounded-t-lg border-0 bg-white px-5 py-4 text-left text-base text-neutral-800 transition overflow-anchor-none hover:z-2 focus:z-3 focus:outline-none dark:bg-neutral-800 dark:text-white"
