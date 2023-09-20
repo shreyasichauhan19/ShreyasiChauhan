@@ -5,6 +5,12 @@ import { introduction } from "../Constants/constants";
 import ImageSlider from "../Components/elements/ImageSlider";
 
 const About = () => {
+
+  const handleResumeDownload = () => {
+    const resumeFile = '../assets/docs/ShreyasiChauhanResume.pdf';
+    window.open(resumeFile, '_blank');
+  };
+
   return (
     <div id="about" className="w-full flex justify-center overflow-hidden-web">
       <div className="w-full xl:w-[70%] flex flex-col pb-16">
@@ -37,6 +43,14 @@ const About = () => {
               <ImageSlider images={memoji.image} />
             </div>
           </div>
+        </div>
+        <div className="w-full mt-8 text-center">
+          <button
+            onClick={handleResumeDownload}
+            className="bg-primary-400 text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-primary-700 transition duration-300"
+          >
+            Download Resume
+          </button>
         </div>
       </div>
     </div>
