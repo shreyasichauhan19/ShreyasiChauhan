@@ -4,15 +4,18 @@ import Projects from "../Pages/Projects";
 import About from "../Pages/About";
 import Skills from "../Pages/Skills";
 import WorkExperience from "../Pages/WorkExperience";
+import VolunteerExperience from "../Pages/VolunteerExperience";
+
 function App() {
   return (
     <>
       <NavBar />
       <Hero />
       <About />
-      <WorkExperience/>
+      <WorkExperience />
       <Skills />
       <Projects /> 
+      <VolunteerExperience />
     </>
   );
 }
