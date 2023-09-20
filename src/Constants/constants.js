@@ -110,12 +110,20 @@ export const navLinks = [
     title: 'About',
   },
   {
-    id: 'projects',
-    title: 'Projects',
+    id: 'hero',
+    title: 'Work Experience',
   },
   {
     id: 'skills',
     title: 'Skills',
+  },
+  {
+    id: 'projects',
+    title: 'Projects',
+  },
+  {
+    id: 'VolunteerExperience',
+    title: 'Volunteer Experience',
   },
   {
     id: 'contact',

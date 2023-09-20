@@ -32,6 +32,12 @@ const Projects = () => {
       link: 'https://github.com/shreyasichauhan19/310-chat-bot',
     },
     {
+      title: 'The Game of Amazons',
+      imageSrc: gameOfAmazons,
+      description: 'Game of Amazons developed in Java using Maven. We used alpha-beta pruning using min-max algorithms.',
+      link: 'https://github.com/shreyasichauhan19/COSC322_Project',
+    },
+    {
       title: 'Web Scraping Robot',
       imageSrc: rpa,
       description: 'Program automatically opens a browser tab, performs some web scraping & calculation, then displays it.',
@@ -43,12 +49,6 @@ const Projects = () => {
       description: 'Keyword replacement of acronyms with their full forms. Coded in python and is currently able to work with around 3000 files and 2.8 million data entries in total.',
       link: 'https://github.com/ThatOth3rGuy/Cosc320',
     },
-    {
-      title: 'The Game of Amazons',
-      imageSrc: gameOfAmazons,
-      description: 'Game of Amazons developed in Java using Maven. We used alpha-beta pruning using min-max algorithms.',
-      link: 'https://github.com/shreyasichauhan19/COSC322_Project',
-    },
   ];
 
   return (
@@ -57,9 +57,9 @@ const Projects = () => {
         <div className="w-80% h-[20%] mt-[1%] mb-[5%]">
           <SectionTitle title="TECHNICAL PROJECTS" subtitle="What I have done so far" />
         </div>
-        <div className="w-[80%] flex flex-wrap justify-center">
+        <div className="w-[90%] flex flex-wrap justify-center">
           {projectData.map((project, index) => (
-            <div className="w-[25%] h-[auto] m-4" key={index}>
+            <div className="w-[40%] h-[auto] m-4" key={index}>
               <ProjectCards
                 title={project.title}
                 imageSrc={project.imageSrc}
@@ -68,8 +68,6 @@ const Projects = () => {
               />
             </div>
           ))}
-        </div>
-        <div className="absolute w-full h-full top-[100%] right-[-75%] sm:right-[-50%]">
         </div>
       </div>
     </div>
