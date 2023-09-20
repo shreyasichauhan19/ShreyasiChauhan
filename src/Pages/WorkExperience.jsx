@@ -26,7 +26,7 @@ const WorkExperiencePage = () => {
         <div className="w-80% h-[20%] mt-[1%] mb-[5%]">
           <SectionTitle title="WORK EXPERIENCE" subtitle="What I have been up to" />
         </div>
-        <ol className="border-l-2 border-info-100">
+        <ol className="border-l-8 border-dotted ">
           {workExperienceData.map((experience, index) => (
             <WorkExperienceCards
               key={index}

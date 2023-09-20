@@ -5,7 +5,7 @@ const WorkExperienceCards = ({ jobTitle, company, description, date }) => {
   return (
     <li className="hover:transform hover:scale-105 transition-transform duration-300 ease-in-out">
       <div className="flex-start md:flex">
-        <div className="-ml-[13px] flex h-[25px] w-[25px] items-center justify-center rounded-full bg-info-100 text-info-700">
+        <div className="-ml-[13px] flex h-[25px] w-[25px] items-center justify-center rounded-full ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -19,7 +19,7 @@ const WorkExperienceCards = ({ jobTitle, company, description, date }) => {
           <div className="mb-4 flex justify-between">
             <a
               href="#!"
-              className="text-xl text-info transition duration-150 ease-in-out hover:text-info-600 focus:text-info-600 active:text-info-700"
+              className="text-xl text-primary-700 transition duration-150 ease-in-out hover:text-info-600 focus:text-info-600 active:text-info-700"
             >
               {jobTitle}
             </a>
