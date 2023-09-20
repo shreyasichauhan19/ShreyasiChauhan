@@ -31,9 +31,7 @@ import {
   raspIcon,
   neoIcon,
   figmaIcon,
-  pawsitivePrototype,
-  calculator,
-  memoryGame,
+  vernonCalendar,
   avatar,
 } from '../assets';
 
@@ -97,55 +95,6 @@ export const navLinks = [
     id: 'contact',
     title: 'Contact',
   },
-];
-
-const projects = [
-  {
-    name: "Game of Amazons",
-    description: 'game of amazons ......',
-    image: memoryGame,
-    source_code_link: 'https://github.com/shreyasichauhan19/COSC322_Project',
-  },
-  {
-    name: 'Web Scraping Robot',
-    description: 'The purpose of this software robot is to find key information about important scientists and display it to the user. ',
-    image: pawsitivePrototype,
-    source_code_link: 'https://github.com/shreyasichauhan19/WebScrapingRobot',
-    demo_link: 'google.com',
-  },
-
-  {
-    name: 'Web Scraping Robot',
-    description: 'The purpose of this software robot is to find key information about important scientists and display it to the user. ',
-    image: pawsitivePrototype,
-    source_code_link: 'https://github.com/shreyasichauhan19/WebScrapingRobot',
-    demo_link: 'google.com',
-  },
-  
-];
-
-const nonTechProjects = [
-  {
-    name: "Game of Amazons",
-    description: 'game of amazons ......',
-    image: calculator,
-    source_code_link: 'https://github.com/shreyasichauhan19/COSC322_Project',
-  },
-  {
-    name: 'Web Scraping Robot',
-    description: 'The purpose of this software robot is to find key information about important scientists and display it to the user. ',
-    image: calculator,
-    source_code_link: 'https://github.com/shreyasichauhan19/WebScrapingRobot',
-    demo_link: 'google.com',
-  },
-  {
-    name: 'Web Scraping Robot',
-    description: 'The purpose of this software robot is to find key information about important scientists and display it to the user. ',
-    image: calculator,
-    source_code_link: 'https://github.com/shreyasichauhan19/WebScrapingRobot',
-    demo_link: 'google.com',
-  },
-  
 ];
 
 const memoji = {
@@ -343,10 +292,8 @@ const markerSvg = `<svg viewBox="-4 0 36 36">
 export {
   media,
   introduction,
-  projects,
   memoji,
   skills,
-  nonTechProjects,
   markerSvg,
   icons,
 };

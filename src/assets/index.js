@@ -22,10 +22,10 @@ import close from './close.svg';
 import menu from './menu.svg';
 
 // Projects
-import pawsitivePrototype from './projects/pawsitive.jpeg';
-import calculator from './projects/calculator.jpg';
-import memoryGame from './projects/memory.jpg';
-
+import vernonCalendar from './projects/vernonCalendar.png';
+import gameOfAmazons from './projects/gameOfAmazons.png';
+import chatbot from './projects/chatbot.png';
+import acronym from './projects/acronym.png';
 // Avatar
 import avatar from './avatar/avatar.png';
 
@@ -48,9 +48,10 @@ export {
   viteIcon,
   neoIcon,
   raspIcon,
-  pawsitivePrototype,
-  calculator,
-  memoryGame,
+  vernonCalendar,
+  gameOfAmazons,
+  chatbot,
+  acronym,
   avatar,
   bl33hIcon,
 };
