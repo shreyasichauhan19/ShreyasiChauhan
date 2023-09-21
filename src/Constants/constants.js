@@ -110,7 +110,7 @@ export const navLinks = [
     title: 'About',
   },
   {
-    id: 'hero',
+    id: 'workexperience',
     title: 'Work Experience',
   },
   {
