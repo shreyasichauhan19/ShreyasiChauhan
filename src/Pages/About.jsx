@@ -30,12 +30,13 @@ const About = () => {
                   damping: 20,
                 }}
                 style={{ fontFamily: "Poppins, sans-serif" }}
-                className="text-grayscale-50 text-center flex flex-col gap-6"
+                className="text-grayscale-50 text-left flex flex-col gap-6"
               >
-                <span className="text-primary-700">{introduction.text[0]}</span>
-                <span className="text-primary-700" >{introduction.text[1]}</span>
-                <span className="text-primary-700" >{introduction.text[2]}</span>
-              </m.p>
+                <span className="text-primary-500" style={ {fontFamily: 'Quicksand',  fontSize: "18px", fontWeight: "600"} }>{introduction.text[0]}</span>
+                <span className="text-grayscale-400" style={ {fontFamily: 'Quicksand',  fontSize: "16px", fontWeight: "400"} }>{introduction.text[1]}</span>
+
+             
+                 </m.p>
             </LazyMotion>
           </div>
           <div className="w-full md:w-[50%] flex h-full items-center justify-center">
