@@ -21,12 +21,12 @@ const WorkExperiencePage = () => {
   ];
 
   return (
-    <div className="w-[80%] flex justify-center">
-      <div className="w-[80%] mt-10 mb-10 ">
-        <div className="w-80% h-[20%] mt-[1%] mb-[5%]">
+    <div id="workexperience" className="w-full flex justify-center overflow-hidden-web">
+      <div className="w-full xl:w-[70%] flex flex-col ">
+        <div className="w-full">
           <SectionTitle title="WORK EXPERIENCE" subtitle="What I have been up to" />
         </div>
-        <ol className="border-l-8 border-dotted border-primary-700">
+        <ol>
           {workExperienceData.map((experience, index) => (
             <WorkExperienceCards
               key={index}
