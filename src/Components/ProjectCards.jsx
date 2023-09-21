@@ -12,10 +12,10 @@ const ProjectCards = ({ title, imageSrc, description, link }) => {
         />
       </a>
       <div className="p-6">
-        <h5 className="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+        <h5 className="mb-2 text-xl font-medium leading-tight text-grayscale-400 dark:text-neutral-50" style={{ fontFamily: 'Quicksand', fontSize: '20px'}}>
           {title}
         </h5>
-        <p>{description}</p>
+        <p  className="text-grayscale-400">{description}</p>
       </div>
     </div>
   );

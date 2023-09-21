@@ -30,7 +30,7 @@ const About = () => {
                   damping: 20,
                 }}
                 style={{ fontFamily: "Poppins, sans-serif" }}
-                className="text-grayscale-50 p-6 text-center flex flex-col gap-6"
+                className="text-grayscale-50 text-center flex flex-col gap-6"
               >
                 <span className="text-primary-700">{introduction.text[0]}</span>
                 <span className="text-primary-700" >{introduction.text[1]}</span>
@@ -44,10 +44,11 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="w-full mt-8 text-center">
+        <div className="w-full mt-[8%] text-left">
           <button
             onClick={handleResumeDownload}
-            className="bg-primary-400 text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-primary-700 transition duration-300"
+            className="bg-primary-400 text-white px-6 py-3 rounded-lg shadow-md hover:bg-primary-500 transition duration-300"
+            style={{ fontFamily: "Quicksand", color: "white" }}
           >
             Download Resume
           </button>

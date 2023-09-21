@@ -41,7 +41,7 @@ const VolunteerExperienceItem = ({ title, content }) => {
         className={`px-5 py-4 ${collapsed ? 'hidden' : 'visible'}`}
         aria-labelledby={`heading-${title}`}
       >
-        <p className="mb-4 text-grayscale-950" style={{ fontFamily: 'Quicksand', fontSize: '18px' }}>{content}</p>
+        <p className="mb-4 text-grayscale-950" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '17px' }}>{content}</p>
       </div>
     </div>
   );

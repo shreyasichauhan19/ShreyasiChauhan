@@ -98,9 +98,6 @@ const icons = {
 const introduction = {
   text: [
     "Hello there, I'm so happy you are here! (:",
-    "Hello there, I'm so happy you are here! (:",
-    "Hello there, I'm so happy you are here! (:",
-
   ],
 };
 
@@ -122,7 +119,7 @@ export const navLinks = [
     title: 'Projects',
   },
   {
-    id: 'VolunteerExperience',
+    id: 'volunteerexperience',
     title: 'Volunteer Experience',
   },
   {

@@ -53,11 +53,11 @@ const Projects = () => {
 
   return (
     <div id="projects" className="w-full overflow-hidden-web flex justify-center">
-      <div className="w-full min-h-screen relative mt-60 flex flex-col items-center justify-center pb-6">
-        <div className="w-80% h-[20%] mt-[1%] mb-[5%]">
+      <div className="w-full xl:w-[70%] flex flex-col ">
+        <div className="mt-[15%]">
           <SectionTitle title="TECHNICAL PROJECTS" subtitle="What I have done so far" />
         </div>
-        <div className="w-[90%] flex flex-wrap justify-center">
+        <div className="w-full flex flex-wrap justify-center">
           {projectData.map((project, index) => (
             <div className="w-[40%] h-[auto] m-4" key={index}>
               <ProjectCards

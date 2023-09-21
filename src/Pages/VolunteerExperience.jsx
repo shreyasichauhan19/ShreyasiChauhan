@@ -33,9 +33,9 @@ const VolunteerExperience = () => {
   ];
 
   return (
-    <div className="w-full flex justify-center ">
-      <div className="w-[80%] mt-[0.1%] mb-[10%] ">
-        <div className="w-[80%] h-[20%] mt-[10%] mb-[6%]">
+    <div id="volunteerexperience" className="w-full flex overflow-hidden-web justify-center ">
+      <div className="w-full xl:w-[70%] flex flex-col">
+        <div className="w-full mt-[15%]">
           <SectionTitle title="VOLUNTEER EXPERIENCE" subtitle="Other stuff that I do" />
         </div>
         <div id="accordionExample">
