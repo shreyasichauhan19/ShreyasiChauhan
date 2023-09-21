@@ -124,7 +124,7 @@ polyline {
 .bounce:hover {
   display: inline-block;
   animation: rubberband 0.8s ease-out;
-  color: #fedeff;
+  color: #BDADFF;
 }
 
 @keyframes rubberband {

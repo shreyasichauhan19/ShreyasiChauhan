@@ -21,7 +21,7 @@ const HeroText = () => {
             whileInView={{ x: 0 }}
             transition={{ duration: 0.6, type: "spring" }}
           >
-            Website Under Construction Shreyasi{" "}
+           Shreyasi{" "}
           </m.span>
           <m.div
             initial={{ x: 100 }}

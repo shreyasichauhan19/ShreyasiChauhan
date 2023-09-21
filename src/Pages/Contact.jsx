@@ -12,7 +12,7 @@ const Contact = () => {
   
       <div className="w-full flex flex-col">
         <SocialLinks />
-        <div className="bg-primary-700 flex justify-center pb-4 text-grayscale-50">
+        <div className="bg-primary-800 flex justify-center pb-4 text-primary-600 text-xl">
           <span>
             Made by <em>Shreyasi Chauhan</em>
           </span>

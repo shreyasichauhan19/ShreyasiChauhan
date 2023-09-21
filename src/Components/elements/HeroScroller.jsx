@@ -7,7 +7,7 @@ const HeroScroller = () => {
       className="absolute xs:bottom-10 bottom-12 flex justify-center items-center"
     >
       <a href="#about">
-        <div className="w-[35-px] h-[64px] rounded-3xl border-4 border-grayscale-300 flex justify-center items-start p-2">
+        <div className="w-[35-px] h-[64px] rounded-3xl border-4 border-primary-600 flex justify-center items-start p-2">
           <m.div
             animate={{
               y: [0, 24, 0],
