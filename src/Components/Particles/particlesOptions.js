@@ -156,28 +156,28 @@ export const heroOptions = {
       type: 'character',
       character: [
         {
-          fill: false,
+          fill: true,
           font: 'Font Awesome 6 Brands',
           style: '',
           value: ['\uf13b'],
           weight: '400',
         },
         {
-          fill: false,
+          fill: true,
           font: 'Font Awesome 6 Brands',
           style: '',
           value: ['\uf38b'],
           weight: '400',
         },
         {
-          fill: false,
+          fill: true,
           font: 'Font Awesome 6 Brands',
           style: '',
           value: ['\uf3b9'],
           weight: '400',
         },
         {
-          fill: false,
+          fill: true,
           font: 'Font Awesome 6 Brands',
           style: '',
           value: ['\uf41b'],

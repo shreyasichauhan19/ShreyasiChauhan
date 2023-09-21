@@ -34,7 +34,7 @@ const VolunteerExperience = () => {
 
   return (
     <div id="volunteerexperience" className="w-full flex overflow-hidden-web justify-center ">
-      <div className="w-full xl:w-[70%] flex flex-col">
+      <div className="w-full xl:w-[70%] ml-[6%] mr-[6%] flex flex-col">
         <div className="w-full mt-[15%]">
           <SectionTitle title="VOLUNTEER EXPERIENCE" subtitle="Other stuff that I do" />
         </div>
