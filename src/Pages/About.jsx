@@ -6,11 +6,6 @@ import ImageSlider from "../Components/elements/ImageSlider";
 
 const About = () => {
 
-  const handleResumeDownload = () => {
-    const resumeFile = '../assets/docs/ShreyasiChauhanResume.pdf';
-    window.open(resumeFile, '_blank');
-  };
-
   return (
     <div id="about" className="w-full flex justify-center overflow-hidden-web">
       <div className="w-full xl:w-[70%] flex flex-col pb-16 ml-[8%] mr-[8%] ">
@@ -46,13 +41,18 @@ const About = () => {
           </div>
         </div>
         <div className="w-full mt-[8%] text-left">
-          <button
-            onClick={handleResumeDownload}
-            className="bg-primary-400 text-white px-6 py-3 rounded-lg shadow-md hover:bg-primary-500 transition duration-300"
-            style={{ fontFamily: "Quicksand", color: "white" }}
-          >
-            Download Resume
-          </button>
+            <a
+              href="https://www.notion.so/shreyasic/Resume-3b7a6149c32340f28e8cf4e5e1ab2f5b"
+              target="_blank" // Opens the link in a new tab
+              rel="noopener noreferrer" // Recommended for security when using target="_blank"
+            >
+              <button
+                className="bg-primary-400 text-white px-6 py-3 rounded-lg shadow-md hover:bg-primary-500 transition duration-300"
+                style={{ fontFamily: "Quicksand", color: "white" }}
+              >
+                View Resume
+              </button>
+            </a>
         </div>
       </div>
     </div>
