@@ -29,7 +29,7 @@ const About = () => {
               >
                 <span className="text-primary-500" style={ {fontFamily: 'Quicksand',  fontSize: "18px", fontWeight: "600"} }>{introduction.text[0]}</span>
                 <span className="text-grayscale-400" style={ {fontFamily: 'Quicksand',  fontSize: "16px", fontWeight: "400"} }>{introduction.text[1]}</span>
-
+                <span className="text-primary-500" style={ {fontFamily: 'Quicksand',  fontSize: "18px", fontWeight: "600"} }>{introduction.text[2]}</span>
              
                  </m.p>
             </LazyMotion>
@@ -53,6 +53,18 @@ const About = () => {
                 View Resume
               </button>
             </a>
+          <a
+            href="https://calendly.com/chauhan-shreyasi/1-hour-meeting"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button
+              className="bg-primary-400 text-white px-6 py-3 rounded-lg shadow-md hover:bg-primary-500 transition duration-300 ml-4"
+              style={{ fontFamily: "Quicksand", color: "white" }}
+            >
+              Book a Meeting
+            </button>
+          </a>
         </div>
       </div>
     </div>
