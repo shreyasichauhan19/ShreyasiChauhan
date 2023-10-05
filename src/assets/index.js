@@ -42,6 +42,11 @@ import acronym from './projects/acronym.png';
 import rpa from './projects/rpa.png';
 import portfolio from './projects/portfolio.png';
 
+//Gallery
+import img1 from './gallery/img1.png';
+import img2 from './gallery/img2.png';
+
+
 // Avatar
 import avatar from './avatar/avatar.png';
 
@@ -85,4 +90,6 @@ export {
   acronym,
   avatar,
   bl33hIcon,
+  img1,
+  img2,
 };
