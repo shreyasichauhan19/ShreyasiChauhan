@@ -6,6 +6,7 @@ import Skills from "../Pages/Skills";
 import WorkExperience from "../Pages/WorkExperience";
 import VolunteerExperience from "../Pages/VolunteerExperience";
 import Contact from "../Pages/Contact";
+import Gallery from "../Pages/Gallery";
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
       <Skills />
       <Projects /> 
       <VolunteerExperience />
+      <Gallery />
       <Contact />
     </>
   );
