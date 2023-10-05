@@ -20,20 +20,15 @@ const ImageGallery = () => {
   };
 
   return (
-    <div
-      id="carouselExampleCaptions"
-      className="relative"
-      data-te-carousel-init
-      data-te-carousel-slide
-    >
-      {/* Carousel Slides */}
-      <div className="relative w-full overflow-hidden">
+    <div id="carouselExampleCaptions" className="w-[70%] overflow-hidden-web flex justify-center" >
+      <p> Work In Progress... Come Back Soon :) </p>
+      <div  className="w-[70%] xl:w-[70%] flex flex-col">
         {images.map((imageUrl, index) => (
           <div
             key={index}
             className={`${
               index === selectedImage ? '' : 'hidden'
-            } relative float-left -mr-[100%] w-full transition-transform duration-600 ease-in-out motion-reduce:transition-none`}
+            } relative w-[70%] transition-transform duration-600 ease-in-out motion-reduce:transition-none`}
             data-te-carousel-active
             data-te-carousel-item
             style={{ backfaceVisibility: 'hidden' }}
@@ -44,10 +39,10 @@ const ImageGallery = () => {
             >
               <img
                 src={imageUrl}
-                className="block w-full"
+                className="block w-[70%]"
                 alt={`Slide ${index + 1}`}
               />
-              <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-black bg-fixed opacity-50"></div>
+              <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-[70%] overflow-hidden bg-black bg-fixed opacity-50"></div>
             </div>
             <div className="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
               <h5 className="text-xl">{`Slide ${index + 1} label`}</h5>
