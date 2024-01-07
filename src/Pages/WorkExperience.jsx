@@ -8,7 +8,7 @@ const WorkExperiencePage = () => {
     {
       jobTitle: 'Web and Digital Media Coordinator',
       company: 'The University of British Columbia',
-      description: " - Collaborate with the Faculties of Arts, Sciences, and Social Sciences, collectively representing over half of UBC's student population. Lead the creation and execution of various web projects, working on project plans, information architecture, site maps, wireframes, visual design, page layout, and quality assurance testing. In conjunction with staff, faculty, and executives, contribute to content strategy, develop new websites, and enhance the reputation of these faculties, their departments, and programs. Additionally, build, implement, and maintain web content, conduct iterative audits, identify gaps, and develop content strategies, including scoping, timelines, and workflows. The day-to-day maintenance of web and digital communication services for both Faculties.", // Add your description here
+      description: " - Collaborate with the Faculties of Arts, Sciences, and Social Sciences, collectively representing over half of UBC's student population. Lead the creation and execution of various web projects, working on project plans, information architecture, site maps, wireframes, visual design, page layout, and quality assurance testing. In conjunction with staff, faculty, and executives, contribute to content strategy, develop new websites, and enhance the reputation of these faculties, their departments, and programs. Additionally, build, implement, and maintain web content, conduct iterative audits, identify gaps, and develop content strategies, including scoping, timelines, and workflows.", // Add your description here
       date: 'November 2023 - Present',
     },
     {
