@@ -97,7 +97,7 @@ const icons = {
 
 const introduction = {
   text: [
-    "TL;DR: I can code, I have leadership skills and I love working with people who make silly little jokes like I do.", "Hi, I am Shreyasi! 🙋🏽‍♀️ I am a computer science graduate from UBC. Currently, I work at Major League Hacking as a Hackathon Coach. 🌟 I did my co-op with Cisco where I worked as a Backend Software Engineer for 15 months. 👩🏽‍💻 I have worked with various front and back-end technologies.📝 I love doing anything that involves - lots of people and a final goal we are working towards! That probably explains my love for leadership roles and hackathons. 👥 Currently - my goal is to become an excellent software engineer by working on various technologies and products. ⚡️", " If you wanna chat more you can book a slot in my Calendar!",
+    "TL;DR: I can code, I have leadership skills and I love working with people who make silly little jokes like I do.", "Hi, I am Shreyasi! 🙋🏽‍♀️ I am a computer science graduate from The University of British Columbia. Currently, working at UBC as a Web and Digital Media Coordinator. 🌟 I did my co-op with Cisco where I worked as a Backend Software Engineer for 15 months. 👩🏽‍💻 I have worked with various front and back-end technologies.📝 I love doing anything that involves - lots of people and a final goal we are working towards! That probably explains my love for leadership roles and hackathons. 👥 Currently - my goal is to become an excellent software engineer by working on various technologies and products. ⚡️",
   ],
 };
 
