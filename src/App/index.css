@@ -35,6 +35,11 @@ body {
   -webkit-overflow-x: hidden;
 }
 
+body.high-contrast {
+  background-color: #000; /* Black background in high contrast mode */
+  color: #fff; /* White text color in high contrast mode */
+}
+
 .overflow-hidden-web {
   overflow: hidden;
   -webkit-overflow: hidden;
