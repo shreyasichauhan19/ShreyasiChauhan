@@ -1,16 +1,3 @@
-# Shreyasi Chauhan
-Welcome to my portfolio repository!
-
-<p align="center" >
-  <a href="#features">Features</a> •
-  <a href="#Files">Files</a> •
-  <a href="#how-to-use">How To Use</a> •
-  <a href="#packages">Packages</a>   
-</p>
-<p align="center" >
-<a href="shreyasichauhan.com">Try it out here</a> 
-</p>
-
 ## Features
 
 * Vite
