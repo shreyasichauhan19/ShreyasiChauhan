@@ -15,8 +15,10 @@ Welcome to my portfolio repository!
 
 * Vite
 ```bash
+# Update dependencies
+$ npm update
 # Install dependencies
-$ npm i
+$ npm install
 # run the app
 $ npm run dev
 ```
