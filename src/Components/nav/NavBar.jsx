@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import {styles} from '../../styles.js';
 import { navLinks } from "../../Constants/constants";
 import {menu, close } from "../../assets";
+import DarkMode from "../elements/DarkMode";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -16,6 +17,7 @@ const Navbar = () => {
     `}
     >
       <div className="w-full flex justify-between items-center max-w-7x1 mx-auto">
+      <DarkMode/>
         <Link
           to="/"
           className="flex items-center gap-2"

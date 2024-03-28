@@ -8,9 +8,8 @@ import "./index.css";
 import "font-awesome/css/font-awesome.min.css";
 import "../../public/Fonts/Morganite/morganiteFont.css";
 
-function toggleHighContrast() {
-  document.body.classList.toggle('high-contrast');
-}
+
+
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -19,7 +18,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <App />
       </PreloadMedia>
     </BrowserRouter>
-    {/* High Contrast Mode Toggle Button */}
-    <button onClick={toggleHighContrast}>Toggle High Contrast Mode</button>
   </React.StrictMode>
 );

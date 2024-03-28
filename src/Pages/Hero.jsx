@@ -1,7 +1,6 @@
 import { m, LazyMotion, domAnimation } from "framer-motion";
 import HeroText from "../Components/HeroText";
 import HeroParticles from "../Components/Particles/HeroParticles";
-import HeroScroller from "../Components/elements/HeroScroller";
 
 const Hero = () => {
   return (
@@ -14,7 +13,6 @@ const Hero = () => {
         <HeroText />
         <HeroParticles />
       </m.div>
-      <HeroScroller />
     </LazyMotion>
     </div>
   );
