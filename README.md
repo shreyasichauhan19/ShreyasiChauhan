@@ -25,6 +25,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com), [Node
 
 ```bash
 # Clone this repository
+$ cd <repo name>
 $ git clone 
 # Install dependencies
 $ npm i
