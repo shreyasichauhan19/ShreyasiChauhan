@@ -83,34 +83,6 @@ const media = {
   avatar,
 };
 
-const cloudData = [
-  {
-    cloudItem: 'Full Stack Development',
-    
-  },
-  {
-    cloudItem: 'Scrum',
-    
-  },
-
-  {
-    cloudItem: 'Business process analysis',
- 
-  },
-  {
-    cloudItem: 'Guidewire',
-
-  },
-  {
-    cloudItem: 'Business requirement analysis',
-
-  },
-  {
-    cloudItem: 'Stakeholder communication',
-
-  },
-];
-
 const icons = {
   faBars,
   faX,
@@ -350,7 +322,6 @@ export {
   introduction,
   memoji,
   skills,
-  cloudData,
   markerSvg,
   icons,
 };
