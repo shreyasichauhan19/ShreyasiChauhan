@@ -83,38 +83,33 @@ const media = {
   avatar,
 };
 
-const cloud = {
-  htmlIcon,
-  cssIcon,
-  shopify,
-  tailwind,
-  jsIcon,
-  jenkins,
-  reactIcon,
-  threading,
-  docker,
-  awsIcon,
-  google,
-  networking,
-  visualstudio,
-  protocol,
-  stripe,
-  javaIcon,
-  gitIcon,
-  githubIcon,
-  psqlIcon,
-  eslintIcon,
-  pyIcon,
-  viteIcon,
-  terminal,
-  clientserver,
-  debugging,
-  nodeIcon,
-  raspIcon,
-  neoIcon,
-  figmaIcon,
-  avatar,
-};
+const cloudData = [
+  {
+    cloudItem: 'Full Stack Development',
+    
+  },
+  {
+    cloudItem: 'Scrum',
+    
+  },
+
+  {
+    cloudItem: 'Business process analysis',
+ 
+  },
+  {
+    cloudItem: 'Guidewire',
+
+  },
+  {
+    cloudItem: 'Business requirement analysis',
+
+  },
+  {
+    cloudItem: 'Stakeholder communication',
+
+  },
+];
 
 const icons = {
   faBars,
@@ -355,7 +350,7 @@ export {
   introduction,
   memoji,
   skills,
-  cloud,
+  cloudData,
   markerSvg,
   icons,
 };
