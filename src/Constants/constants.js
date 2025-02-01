@@ -83,6 +83,39 @@ const media = {
   avatar,
 };
 
+const cloud = {
+  htmlIcon,
+  cssIcon,
+  shopify,
+  tailwind,
+  jsIcon,
+  jenkins,
+  reactIcon,
+  threading,
+  docker,
+  awsIcon,
+  google,
+  networking,
+  visualstudio,
+  protocol,
+  stripe,
+  javaIcon,
+  gitIcon,
+  githubIcon,
+  psqlIcon,
+  eslintIcon,
+  pyIcon,
+  viteIcon,
+  terminal,
+  clientserver,
+  debugging,
+  nodeIcon,
+  raspIcon,
+  neoIcon,
+  figmaIcon,
+  avatar,
+};
+
 const icons = {
   faBars,
   faX,
@@ -322,6 +355,7 @@ export {
   introduction,
   memoji,
   skills,
+  cloud,
   markerSvg,
   icons,
 };
