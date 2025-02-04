@@ -5,42 +5,132 @@ import SkillsNewItem from '../Components/SkillsNewItem';
 const SkillsNew = () => {
   const skillsArray = [
       {
-        item: 'Shreyasi Chauhan Portfolio Website',
+        item: 'Stakeholder Communication',
       },
       {
-        item: 'System development and implementation',
+        item: 'Scrum',
+      },
+      {
+        item: 'Data Mapping',
+      },
+      {
+        item: 'Business Requirements Gathering',
       },
       {
         item: 'Cross-functional collaboration',
       },
       {
-        item: 'Inventory management system design',
+        item: 'Business Requirements Analysis',
       },
       {
-        item: 'System test plan development',
+        item: 'Java',
       },
       {
-        item: 'System process and procedure documentation',
+        item: 'JavaScript',
       },
       {
-        item: 'Stakeholder communication',
+        item: 'Python',
       },
       {
-        item: 'Business requirement analysis',
+        item: 'SQL',
+      },
+      {
+        item: 'HTML',
+      },
+      {
+        item: 'CSS',
+      },
+      {
+        item: 'Node',
+      },
+      {
+        item: 'React',
+      },
+      {
+        item: 'Vite',
+      },
+      {
+        item: 'Tailwind',
+      },
+      {
+        item: 'RPA',
+      },
+      {
+        item: 'Git',
+      },
+      {
+        item: 'GitHub',
+      },
+      {
+        item: 'Jenkins',
+      },
+      {
+        item: 'CLI',
+      },
+      {
+        item: 'Visual Studio',
+      },
+      {
+        item: 'CI/CD',
+      },
+      {
+        item: 'Docker',
+      },
+      {
+        item: 'Data Structures & Algorithms',
+      },
+      {
+        item: 'OOP',
+      },
+      {
+        item: 'Agile Developement',
+      },
+      {
+        item: 'Project Management',
+      },
+            {
+        item: 'GitHub',
+      },
+      {
+        item: 'Jenkins',
+      },
+      {
+        item: 'CLI',
+      },
+      {
+        item: 'Visual Studio',
+      },
+      {
+        item: 'CI/CD',
+      },
+      {
+        item: 'Docker',
+      },
+      {
+        item: 'Data Structures & Algorithms',
+      },
+      {
+        item: 'OOP',
+      },
+      {
+        item: 'Agile Developement',
+      },
+      {
+        item: 'Project Management',
       },
     ];
 
   return (
     <div id="skillsNew" className="w-[full] overflow-hidden-web flex justify-center">
-      <div className="w-full xl:w-[70%] flex flex-col">
+      <div className="w-full xl:w-[70%] flex flex-col"> 
         <div className="mt-[15%]">
-          <SectionTitle title="SKILLS NEW"/>
+          <SectionTitle title="SKILLS"/>
         </div>
-        <div className="w-full flex flex-wrap justify-center">
-        {skillsArray.map((project, index) => (
-            <div className="w-[auto] h-[auto] m-3 hover:transform hover:scale-125 transition-transform duration-300 ease-in-out" key={index}>
+        <div className="w-full flex-wrap flex justify-start">
+          {skillsArray.map((skill, index) => (
+            <div className="w-[auto] h-[auto] m-1.5 hover:transform hover:scale-105 duration-500 ease-in-out" key={index}>
               <SkillsNewItem
-                item={project.item}
+                item={skill.item}
               />
             </div>
           ))}

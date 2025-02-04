@@ -16,7 +16,6 @@ function App() {
       <About />
       <WorkExperience />
       <SkillsNew />
-      <Skills />
       <Projects /> 
       <VolunteerExperience />
       <Contact />

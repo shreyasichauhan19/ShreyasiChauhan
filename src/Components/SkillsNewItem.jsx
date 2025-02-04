@@ -3,11 +3,11 @@ import React from 'react';
 
 const SkillsNewItem = ({item}) => {
   return (
-    <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
-      <div className="skill-tiles">
-        <p  className="font-medium leading-tight text-grayscale-400 dark:text-neutral-50" style={{ fontFamily: 'Quicksand', fontSize: '15px'}}>{item}</p>
-      </div>
+  <div className="w-full flex items-center flex-col">
+    <div className="h-auto w-auto flex justify-center items-center bg-primary-800 rounded-lg border p-1 object-contain text-center text-grayscale-400 text-sm p-2 hover:bg-primary-400 ">
+    {item}
     </div>
+</div>
   );
 };
 
