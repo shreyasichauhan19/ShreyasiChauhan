@@ -6,7 +6,7 @@ import Skills from "../Pages/Skills";
 import WorkExperience from "../Pages/WorkExperience";
 import VolunteerExperience from "../Pages/VolunteerExperience";
 import Contact from "../Pages/Contact";
-
+import SkillsNew from "../Pages/SkillsNew";
 
 function App() {
   return (
@@ -15,8 +15,7 @@ function App() {
       <Hero />
       <About />
       <WorkExperience />
-   
-      <Skills />
+      <SkillsNew />
       <Projects /> 
       <VolunteerExperience />
       <Contact />
