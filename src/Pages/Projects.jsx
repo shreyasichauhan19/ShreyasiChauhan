@@ -55,7 +55,7 @@ const Projects = () => {
     <div id="projects" className="w-full overflow-hidden-web flex justify-center">
       <div className="w-full xl:w-[70%] flex flex-col">
         <div className="mt-[15%]">
-          <SectionTitle title="TECHNICAL PROJECTS" subtitle="What I have done so far" />
+          <SectionTitle title="TECHNICAL PROJECTS"/>
         </div>
         <div className="w-full flex flex-wrap justify-center">
           {projectData.map((project, index) => (

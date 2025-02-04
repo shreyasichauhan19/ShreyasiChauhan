@@ -10,7 +10,7 @@ const About = () => {
     <div id="about" className="w-full flex justify-center overflow-hidden-web">
       <div className="w-full xl:w-[70%] flex flex-col pb-16 ml-[8%] mr-[8%] ">
         <div className="w-full">
-          <SectionTitle title="ABOUT ME" subtitle="Introduction" />
+          <SectionTitle title="ABOUT ME"/>
         </div>
         <div className="w-full flex flex-col-reverse sm:flex-row">
           <div className="w-full md:w-[50%] md:h-full flex items-center mt-10">
