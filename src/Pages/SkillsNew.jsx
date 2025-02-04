@@ -4,120 +4,123 @@ import SkillsNewItem from '../Components/SkillsNewItem';
 
 const SkillsNew = () => {
   const skillsArray = [
-      {
-        item: 'Stakeholder Communication',
-      },
-      {
-        item: 'Scrum',
-      },
-      {
-        item: 'Data Mapping',
-      },
-      {
-        item: 'Business Requirements Gathering',
-      },
-      {
-        item: 'Cross-functional collaboration',
-      },
-      {
-        item: 'Business Requirements Analysis',
-      },
-      {
-        item: 'Java',
-      },
-      {
-        item: 'JavaScript',
-      },
-      {
-        item: 'Python',
-      },
-      {
-        item: 'SQL',
-      },
-      {
-        item: 'HTML',
-      },
-      {
-        item: 'CSS',
-      },
-      {
-        item: 'Node',
-      },
-      {
-        item: 'React',
-      },
-      {
-        item: 'Vite',
-      },
-      {
-        item: 'Tailwind',
-      },
-      {
-        item: 'RPA',
-      },
-      {
-        item: 'Git',
-      },
-      {
-        item: 'GitHub',
-      },
-      {
-        item: 'Jenkins',
-      },
-      {
-        item: 'CLI',
-      },
-      {
-        item: 'Visual Studio',
-      },
-      {
-        item: 'CI/CD',
-      },
-      {
-        item: 'Docker',
-      },
-      {
-        item: 'Data Structures & Algorithms',
-      },
-      {
-        item: 'OOP',
-      },
-      {
-        item: 'Agile Developement',
-      },
-      {
-        item: 'Project Management',
-      },
-            {
-        item: 'GitHub',
-      },
-      {
-        item: 'Jenkins',
-      },
-      {
-        item: 'CLI',
-      },
-      {
-        item: 'Visual Studio',
-      },
-      {
-        item: 'CI/CD',
-      },
-      {
-        item: 'Docker',
-      },
-      {
-        item: 'Data Structures & Algorithms',
-      },
-      {
-        item: 'OOP',
-      },
-      {
-        item: 'Agile Developement',
-      },
-      {
-        item: 'Project Management',
-      },
+    {
+      item: 'Stakeholder Communication',
+    },
+    {
+      item: 'Business Requirements Gathering',
+    },
+    {
+      item: 'Cross-functional Collaboration',
+    },
+    {
+      item: 'Business Requirements Analysis',
+    },
+    {
+      item: 'Scrum',
+    },
+    {
+      item: 'Sprint Planning',
+    },
+    {
+      item: 'Backlog Refinement',
+    },
+    {
+      item: 'Data Mapping',
+    },
+    {
+      item: 'Guidewire Billing Center',
+    },
+    {
+      item: 'Guidewire Policy Center',
+    },
+    {
+      item: 'Feature Release Plan'
+    },
+    {
+      item: 'Project Planning and Organization'
+    },
+    {
+      item: 'UAT Testing',
+    },
+    {
+      item: 'Risk Managment',
+    },
+    {
+      item: 'End-to-end Feature Delivery',
+    },
+    {
+      item: 'MS Excel',
+    },
+    {
+      item: 'JIRA',
+    },
+    {
+      item: 'Confluence',
+    },
+    {
+      item: 'Java',
+    },
+    {
+      item: 'JavaScript',
+    },
+    {
+      item: 'Python',
+    },
+    {
+      item: 'SQL',
+    },
+    {
+      item: 'HTML',
+    },
+    {
+      item: 'CSS',
+    },
+    {
+      item: 'Node',
+    },
+    {
+      item: 'React',
+    },
+    {
+      item: 'Vite',
+    },
+    {
+      item: 'Tailwind',
+    },
+    {
+      item: 'RPA',
+    },
+    {
+      item: 'Git',
+    },
+    {
+      item: 'GitHub',
+    },
+    {
+      item: 'Jenkins',
+    },
+    {
+      item: 'CLI',
+    },
+    {
+      item: 'Visual Studio',
+    },
+    {
+      item: 'CI/CD',
+    },
+    {
+      item: 'Docker',
+    },
+    {
+      item: 'Data Structures & Algorithms',
+    },
+    {
+      item: 'OOP',
+    },
+    {
+      item: 'Agile Developement',
+    },
     ];
 
   return (
