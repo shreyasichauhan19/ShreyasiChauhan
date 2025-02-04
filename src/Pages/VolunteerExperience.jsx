@@ -15,20 +15,8 @@ const VolunteerExperience = () => {
     },
     {
       title: 'Panel Member - Co-op Education Program Webinar',
-      content: 'I was invited to share my Co-op experience with 200+ students for a webinar hosted by the UBC Coop Office, aimed at equipping the 2021 co-op batch with the necessary tools and strategies to navigate the highly competitive job market. I spoke about job search best practices, along with some insights drawn from my own professional experience. Through a thoughtful and engaging discourse, I effectively shared some crucial dos and don\'ts of job search to make the process a tad easier. The webinar was followed by a Q/A session where I answered job hunt questions specific to computer science.',
+      content: 'Opportunity to share my Co-op experience with 200+ students for a webinar hosted by the UBC Coop Office, aimed at equipping the 2021 co-op batch with the necessary tools and strategies to navigate the highly competitive job market. I spoke about job search best practices, along with some insights drawn from my own professional experience. Through a thoughtful and engaging discourse, I effectively shared some crucial dos and don\'ts of job search to make the process a tad easier. The webinar was followed by a Q/A session where I answered job hunt questions specific to computer science.',
     },
-    {
-        title: 'Outreach Manager - UBCO Student Union Elections',
-        content: 'As the Campaign Manager for the Vice President External candidate in the 2023-24 Student Union elections at UBC, I was responsible for formulating and executing effective strategies to increase student engagement and participation in the electoral process. The candidate Lakshay Karnwal emerged victorious with an impressive tally of 420 votes, marking a 30% increase in voter turnout compared to the previous year.',
-    },
-    {
-    title: 'Volunteer - UBCO Homecoming 2018',
-    content: 'Volunteered with the UBCO Alumni Office to help out on day-of activities such as entertainment, food, and general logistics of the Annual Homecoming event which aims at bringing together and celebrating the exceptional alumni of our beautiful campus.',
-    },
-    {
-        title: 'Volunteer - UBCO Homecoming 2019',
-        content: 'Same thing, once again! :) ',
-        },
     // Add more volunteer experience data as needed
   ];
 
