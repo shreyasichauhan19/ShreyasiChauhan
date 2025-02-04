@@ -40,7 +40,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="w-full mt-[8%] text-left">
+        <div className="w-full mt-[3%] text-left">
             <a
               href="https://www.notion.so/shreyasic/Resume-3b7a6149c32340f28e8cf4e5e1ab2f5b"
               target="_blank" // Opens the link in a new tab
@@ -58,12 +58,7 @@ const About = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button
-              className="bg-primary-400 text-white px-6 py-3 rounded-lg shadow-md hover:bg-primary-500 transition duration-300 ml-4"
-              style={{ fontFamily: "Quicksand", color: "white" }}
-            >
-              Book a Meeting
-            </button>
+
           </a>
         </div>
       </div>

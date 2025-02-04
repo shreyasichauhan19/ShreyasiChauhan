@@ -97,7 +97,7 @@ const icons = {
 
 const introduction = {
   text: [
-    "TL;DR: I can code, I have leadership skills and I love working with people who make silly little jokes like I do.", "Hi, I am Shreyasi! 🙋🏽‍♀️ I am a computer science graduate from The University of British Columbia. Currently, working at UBC as a Web and Digital Media Coordinator. 🌟 I did my co-op with Cisco where I worked as a Backend Software Engineer for 15 months. 👩🏽‍💻 I have worked with various front and back-end technologies.📝 I love doing anything that involves - lots of people and a final goal we are working towards! That probably explains my love for leadership roles and hackathons. 👥 Currently - my goal is to become an excellent software engineer by working on various technologies and products. ⚡️",
+    "Just a CS grad working on creating her own unique career path...", "Hi, I am Shreyasi! A computer science graduate from The University of British Columbia, currently, working at Definity as a Business Systems Analyst. I have worn many hats in the past - backend software engineer, hackathon coach and 3x hackathon organizer being some of my favorite experiences.  At the moment, I am working on my side projects, hobbies and exploring my interests! ⚡️",
   ],
 };
 
