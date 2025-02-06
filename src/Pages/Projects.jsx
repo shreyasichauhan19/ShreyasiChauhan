@@ -40,9 +40,9 @@ const Projects = () => {
         <div className="mt-[15%]">
           <SectionTitle title="TECHNICAL PROJECTS"/>
         </div>
-        <div className="w-full flex flex-wrap items-center justify-center">
+        <div className="w-full mb-[10%] flex flex-wrap items-center justify-center">
           {projectData.map((project, index) => (
-            <div className="w-[15%] m-2 items-center justify-center" key={index}>
+            <div className="w-[40%] m-4 items-center justify-center" key={index}>
               <ProjectCards
                 title={project.title}
                 link={project.link}
