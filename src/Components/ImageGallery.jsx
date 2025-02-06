@@ -18,12 +18,16 @@ const ImageGallery = ({ images = CAROUSEL_IMAGES }) => {
   };
 
   return (
-    <div id="carouselExampleCaptions" className="w-[70%] overflow-hidden-web flex justify-center">
+    <div id="carouselExampleCaptions" className="w-[70%] overflow-hidden-web flex
+     justify-center">
       <div> 
       <p>Work in progress... come back sooon :))</p>
         {/* Previous Arrow */}
         <button
-          className="flex items-center justify-center p-8 text-center text-black opacity-90 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-black hover:no-underline hover:opacity-90 hover:outline-none focus:text-black focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+          className="flex items-center justify-center p-8 text-center text-black opacity-90 
+          transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] 
+          hover:text-black hover:no-underline hover:opacity-90 hover:outline-none 
+          focus:text-black focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
           type="button"
           data-te-target="#carouselExampleCaptions"
           data-te-slide="prev"

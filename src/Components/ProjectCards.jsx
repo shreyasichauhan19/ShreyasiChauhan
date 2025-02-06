@@ -1,23 +1,25 @@
 // ProjectCards.js
 import React from 'react';
 
-const ProjectCards = ({ title, imageSrc, description, link }) => {
+const ProjectCards = ({ title, link }) => {
   return (
-    <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
-      <a href={link}>
-        <img
-          className="rounded-t-lg"
-          src={imageSrc}
-          alt=""
-        />
-      </a>
-      <div className="p-6">
-        <h5 className="mb-2 text-xl font-medium leading-tight text-grayscale-400 dark:text-neutral-50" style={{ fontFamily: 'Quicksand', fontSize: '20px'}}>
+    
+    <a 
+    href={link} className="block p-2 h-[100px] rounded-lg bg-white 
+    shadow-[0px_0px_3px_3px_rgba(230,230,230)] hover:transform hover:scale-105 
+    duration-500 ease-in-out dark:bg-neutral-300 flex items-center justify-center "
+    target="_blank" 
+    rel="noopener noreferrer"
+    >
+    <div>
+      <div className="text-grayscale-400 
+      hover:text-primary-400 dark:text-neutral-50 
+      flex items-center justify-center" 
+      style={{  fontFamily: 'Poppins', fontSize: '18px' }}>
           {title}
-        </h5>
-        <p  className="text-grayscale-400">{description}</p>
       </div>
     </div>
+    </a>
   );
 };
 

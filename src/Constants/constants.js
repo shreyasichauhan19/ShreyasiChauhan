@@ -44,6 +44,11 @@ import {
   neoIcon,
   visualstudio,
   figmaIcon,
+  acronym,
+  chatbot,
+  gameOfAmazons,
+  portfolio,
+  rpa,
   vernonCalendar,
   avatar,
 } from '../assets';
@@ -80,6 +85,12 @@ const media = {
   raspIcon,
   neoIcon,
   figmaIcon,
+  acronym,
+  chatbot,
+  gameOfAmazons,
+  portfolio,
+  rpa,
+  vernonCalendar,
   avatar,
 };
 

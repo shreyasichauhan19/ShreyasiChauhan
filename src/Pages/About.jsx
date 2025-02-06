@@ -27,15 +27,22 @@ const About = () => {
                 style={{ fontFamily: "Poppins, sans-serif" }}
                 className="text-grayscale-50 text-left flex flex-col gap-6"
               >
-                <span className="text-primary-500" style={ {fontFamily: 'Quicksand',  fontSize: "18px", fontWeight: "600"} }>{introduction.text[0]}</span>
-                <span className="text-grayscale-400" style={ {fontFamily: 'Quicksand',  fontSize: "16px", fontWeight: "500"} }>{introduction.text[1]}</span>
-                <span className="text-primary-500" style={ {fontFamily: 'Quicksand',  fontSize: "18px", fontWeight: "600"} }>{introduction.text[2]}</span>
+                <span className="text-primary-500" style={ 
+                  {fontFamily: 'Quicksand',  fontSize: "18px", fontWeight: "600"} }>
+                    {introduction.text[0]}</span>
+                <span className="text-grayscale-400" style={ 
+                  {fontFamily: 'Quicksand',  fontSize: "16px", fontWeight: "500"} }>
+                    {introduction.text[1]}</span>
+                <span className="text-primary-500" style={ 
+                  {fontFamily: 'Quicksand',  fontSize: "18px", fontWeight: "600"} }>
+                    {introduction.text[2]}</span>
              
                  </m.p>
             </LazyMotion>
           </div>
           <div className="w-full md:w-[50%] flex h-full items-center justify-center">
-            <div className="w-[80%] lg:w-[50%] h-[300px] sm:h-[350px] flex justify-center items-center">
+            <div className="w-[80%] lg:w-[50%] h-[300px] sm:h-[350px] flex justify-center 
+            items-center">
               <ImageSlider images={memoji.image} />
             </div>
           </div>
@@ -47,7 +54,8 @@ const About = () => {
               rel="noopener noreferrer" // Recommended for security when using target="_blank"
             >
               <button
-                className="bg-primary-400 text-white px-6 py-3 rounded-lg shadow-md hover:bg-primary-500 transition duration-300"
+                className="bg-primary-400 text-white px-6 py-3 rounded-lg shadow-md 
+                hover:bg-primary-500 transition duration-300"
                 style={{ fontFamily: "Quicksand", color: "white" }}
               >
                 View Resume
