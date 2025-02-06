@@ -41,7 +41,7 @@ const SkillsNew = () => {
       item: 'Project Planning and Organization'
     },
     {
-      item: 'UAT Testing',
+      item: 'User Acceptance Testing (UAT)',
     },
     {
       item: 'Risk Managment',
