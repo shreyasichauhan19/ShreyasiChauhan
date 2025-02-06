@@ -6,7 +6,7 @@ import WorkExperienceCards from '../Components/WorkExperienceCards';
 const WorkExperiencePage = () => {
   const workExperienceData = [
     {
-      jobTitle: 'Technichal Business Analyst',
+      jobTitle: 'Technical Business Analyst',
       company: 'Definity',
       description: " - Collaborate with the Project Manager and the team to develop and maintain a prioritized Product backlog of User Stories/Requirements, and develop the Release plan. Elicit, analyze, specify and communicate functional and non-functional business, system and implementation requirements. Plan and conduct acceptance reviews with business sponsors and delivery team to confirm delivered functionality. Help estimate delivery work necessary to realize requirements through development lifecycle. Participate in client project meetings. Identify opportunities for business or process improvement and makes associated recommendations.", // Add your description here
       date: 'February 2024 - Present',

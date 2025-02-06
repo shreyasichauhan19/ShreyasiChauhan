@@ -8,10 +8,14 @@ const VolunteerExperienceItem = ({ title, content }) => {
   };
 
   return (
-    <div className={`border border-grayscale-100 border-x-2 border-y-2 mb-4 rounded-lg  ${collapsed ? 'collapsed' : ''}`}>
-      <h2 className="mb-0 " style={{ fontFamily: 'Quicksand', fontSize: '20px', fontWeight: 'bold' }}>
+    <div className={`border border-grayscale-100 border-x-2 border-y-2 mb-4 rounded-lg  
+    ${collapsed ? 'collapsed' : ''}`}>
+      <h2 className="mb-0 " style={{ fontFamily: 'Quicksand', fontSize: '20px', 
+        fontWeight: 'bold' }}>
         <button
-          className="group relative flex w-full items-center px-8 py-8 text-primary-500 transition overflow-anchor-none hover:z-2 focus:z-3 focus:outline-none dark:bg-neutral-800 dark:text-white"
+          className="group relative flex w-full items-center px-8 py-8 text-primary-500 
+          transition overflow-anchor-none hover:z-2 focus:z-3 focus:outline-none 
+          dark:bg-neutral-800 dark:text-white"
           type="button"
           onClick={toggleCollapse}
           aria-expanded={!collapsed}
@@ -41,7 +45,8 @@ const VolunteerExperienceItem = ({ title, content }) => {
         className={`px-5 py-4 ${collapsed ? 'hidden' : 'visible'}`}
         aria-labelledby={`heading-${title}`}
       >
-        <p className="mb-2 dark:text-neutral-50" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '17px' }}>{content}</p>
+        <p className="mb-2 dark:text-neutral-50" style={{ fontFamily: 'Poppins, sans-serif', 
+          fontSize: '17px' }}>{content}</p>
       </div>
     </div>
   );

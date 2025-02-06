@@ -11,7 +11,8 @@ const Skills = () => {
         </div>
         <div className="xl:border-l-2 xl:border-r-2 xl:border-grayscale-300 h-full">
           <div className="relative">
-            <div className="absolute top-[45px] absolute bottom-[45px] w-full h-[1px] bg-grayscale-300"></div>
+            <div className="absolute top-[45px] absolute bottom-[45px] w-full h-[1px] 
+            bg-grayscale-300"></div>
             <MarqueeCards  >
               <SkillsCards />
             </MarqueeCards>

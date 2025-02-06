@@ -17,11 +17,13 @@ const SkillsCards = () => {
           }}
           style={{ zIndex: `${index + 1}`, transition: "all 0.6s" }}
           key={index}
-          className="card w-[180px] h-[140px] flex flex-col items-center bg-primary-800 rounded-xl border-2 border-grayscale-300 cursor-pointer"
+          className="card w-[180px] h-[140px] flex flex-col items-center bg-primary-800 
+          rounded-xl border-2 border-grayscale-300 cursor-pointer"
         >
           <div className="w-full flex items-center gap-0.2 p-2 flex-col">
             <img
-              className="h-[60px] flex justify-center items-center w-[60px]  bg-primary-800 rounded-[50%] p-1 object-contain"
+              className="h-[60px] flex justify-center items-center w-[60px]  bg-primary-800 
+              rounded-[50%] p-1 object-contain"
               src={skill.icon}
               alt={skill.title}
             />

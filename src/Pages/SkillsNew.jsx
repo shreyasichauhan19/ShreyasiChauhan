@@ -131,7 +131,8 @@ const SkillsNew = () => {
         </div>
         <div className="w-full flex-wrap flex justify-start">
           {skillsArray.map((skill, index) => (
-            <div className="w-[auto] h-[auto] m-1.5 hover:transform hover:scale-105 duration-500 ease-in-out" key={index}>
+            <div className="w-[auto] h-[auto] m-1.5 hover:transform 
+            hover:scale-105 duration-500 ease-in-out" key={index}>
               <SkillsNewItem
                 item={skill.item}
               />
