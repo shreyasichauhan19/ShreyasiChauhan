@@ -34,7 +34,7 @@ const WorkExperiencePage = () => {
 
   return (
     <div id="workexperience" className="w-full flex justify-center overflow-hidden-web">
-      <div className="w-full xl:w-[70%] flex flex-col">
+      <div className="w-full h-[full] xl:w-[70%] flex flex-col">
         <div className="w-full mt-[10%]">
           <SectionTitle title="WORK EXPERIENCE"/>
         </div>
