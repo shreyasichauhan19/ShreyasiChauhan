@@ -29,7 +29,7 @@
 }
 
 body {
-  background-color: #fdfaec;
+  background-color: #2a1e22;
   position: relative;
   overflow-x: hidden;
   -webkit-overflow-x: hidden;
@@ -49,7 +49,7 @@ body.high-contrast {
   content: " ";
   width: 10px;
   height: 10px;
-  background: #007f6c;
+  background: #677f5b;
   position: absolute;
   bottom: -10px;
   right: 0;
@@ -59,12 +59,12 @@ body.high-contrast {
 #repulse-div {
   -webkit-appearance: none;
   appearance: none;
-  -webkit-filter: drop-shadow(0 0 5rem #8eda54);
+  -webkit-filter: drop-shadow(0 0 5rem #677f5b);
   filter: drop-shadow(0 0 5rem #e7adc6);
 }
 
 #repulse-div > h1 {
-  -webkit-filter: drop-shadow(0 0 5rem #90c28a);
+  -webkit-filter: drop-shadow(0 0 5rem #677f5b);
   filter: drop-shadow(0 0 2rem #ffdeed);
 }
 
@@ -100,7 +100,7 @@ polyline {
 
 .blob {
   animation: morph 3.6s linear infinite;
-  background: #a8e3a6;
+  background: #44543c;
   border-collapse: separate;
   background-size: cover;
   background-position: center;
@@ -133,7 +133,7 @@ polyline {
 .bounce:hover {
   display: inline-block;
   animation: rubberband 0.8s ease-out;
-  color: #BDADFF;
+  color: #d497ac;
 }
 
 @keyframes rubberband {
@@ -164,8 +164,8 @@ polyline {
   .drop-shadow-div {
     -webkit-appearance: none;
     appearance: none;
-    -webkit-filter: drop-shadow(0 0 1.5rem #A0DB9E);
-    filter: drop-shadow(0 0 1.5rem #A0DB9E);
+    -webkit-filter: drop-shadow(0 0 1.5rem #677f5b);
+    filter: drop-shadow(0 0 1.5rem #677f5b);
   }
 }
 
@@ -188,7 +188,7 @@ polyline {
   height: 80px;
   border-radius: 50%;
   border: 5px solid;
-  border-color: #f4b2d4 transparent;
+  border-color: #feb6ce transparent;
 }
 
 @keyframes rotation {

@@ -160,28 +160,28 @@ export const heroOptions = {
           font: 'Font Awesome 6 Brands',
           style: '',
           value: ['\uf13b'],
-          weight: '400',
+          weight: '100',
         },
         {
           fill: true,
           font: 'Font Awesome 6 Brands',
           style: '',
           value: ['\uf38b'],
-          weight: '400',
+          weight: '100',
         },
         {
           fill: true,
           font: 'Font Awesome 6 Brands',
           style: '',
           value: ['\uf3b9'],
-          weight: '400',
+          weight: '100',
         },
         {
           fill: true,
           font: 'Font Awesome 6 Brands',
           style: '',
           value: ['\uf41b'],
-          weight: '400',
+          weight: '100',
         },
       ],
     },
@@ -189,8 +189,8 @@ export const heroOptions = {
     size: {
       random: {
         enable: true,
-        minimumValue: 25,
-        maxValue: 35,
+        minimumValue: 10,
+        maxValue: 20,
       },
       animation: {
         count: 0,
