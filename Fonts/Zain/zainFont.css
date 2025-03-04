@@ -1,0 +1,15 @@
+  @font-face {
+    font-family: "Zain Bold";
+    src: url(/Fonts/Zain/Zain-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: "Zain Light";
+    src: url(/Fonts/Zain/Zain-Light.ttf);
+  }
+  
+
+  @font-face {
+    font-family: "Zain Regular";
+    src: url(/Fonts/Zain/Zain-Regular.ttf);
+  }

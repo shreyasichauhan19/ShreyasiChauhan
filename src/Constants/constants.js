@@ -107,9 +107,7 @@ const icons = {
 };
 
 const introduction = {
-  text: [
-    "Just a CS grad working on creating her own unique career path...", "Hi, I am Shreyasi! A computer science graduate from The University of British Columbia, currently, working at Definity as a Business Systems Analyst. I have worn many hats in the past - backend software engineer, hackathon coach and 3x hackathon organizer being some of my favorite experiences.  At the moment, I am working on my side projects, hobbies and exploring my interests! ⚡️",
-  ],
+  text: ["Just a CS grad working on creating her own unique career path...", "Hi, I am Shreyasi! A computer science graduate from The University of British Columbia, currently, working at Definity as a Business Systems Analyst. I have worn many hats in the past - backend software engineer, hackathon coach and 3x hackathon organizer being some of my favorite experiences.  At the moment, I am working on my side projects, hobbies and exploring my interests! ⚡️"],
 };
 
 export const navLinks = [

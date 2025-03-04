@@ -24,17 +24,16 @@ const About = () => {
                   stiffness: 100,
                   damping: 20,
                 }}
-                style={{ fontFamily: "Poppins, sans-serif" }}
                 className="text-grayscale-50 text-left flex flex-col gap-6"
               >
-                <span className="text-primary-500" style={ 
-                  {fontFamily: 'Quicksand',  fontSize: "18px", fontWeight: "600"} }>
+                <span className="text-primary-500"  style={ 
+                  {fontFamily: 'Quicksand Regular',  fontSize: "18px", fontWeight: "600"} }>
                     {introduction.text[0]}</span>
-                <span className="text-grayscale-400" style={ 
-                  {fontFamily: 'Quicksand',  fontSize: "16px", fontWeight: "500"} }>
+                <span className="text-grayscale-600" style={ 
+                  {fontFamily: 'Quicksand Regular',  fontSize: "16px", fontWeight: "500"} }>
                     {introduction.text[1]}</span>
-                <span className="text-primary-500" style={ 
-                  {fontFamily: 'Quicksand',  fontSize: "18px", fontWeight: "600"} }>
+                <span className="text-primary-700" style={ 
+                  {fontFamily: 'Quicksand Regular',  fontSize: "18px", fontWeight: "600"} }>
                     {introduction.text[2]}</span>
              
                  </m.p>

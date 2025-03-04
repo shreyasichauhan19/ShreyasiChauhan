@@ -14,10 +14,7 @@
   font-family: "Gloock";
   src: url(/Fonts/Gloock/Gloock-Regular.ttf);
 }
-@font-face {
-  font-family: "Morganite";
-  src: url(/Fonts/Gloock/Morganite-Light.ttf);
-}
+
 
 
 * {
@@ -29,7 +26,7 @@
 }
 
 body {
-  background-color: #2a1e22;
+  background-color: #3c2c28;
   position: relative;
   overflow-x: hidden;
   -webkit-overflow-x: hidden;
@@ -56,17 +53,6 @@ body.high-contrast {
   border-radius: 0 0 0 100%;
 }
 
-#repulse-div {
-  -webkit-appearance: none;
-  appearance: none;
-  -webkit-filter: drop-shadow(0 0 5rem #677f5b);
-  filter: drop-shadow(0 0 5rem #e7adc6);
-}
-
-#repulse-div > h1 {
-  -webkit-filter: drop-shadow(0 0 5rem #677f5b);
-  filter: drop-shadow(0 0 2rem #ffdeed);
-}
 
 #journey-scroll::-webkit-scrollbar {
   display: none;

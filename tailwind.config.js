@@ -12,20 +12,13 @@ export default {
     },
     colors: {
       primary: {
-        400: '#66745f', //green
+        100: '#3c544c', //dark green
+        400: '#44543c', //green
         500: '#d497ac', //cute pink
         600: '#BDADFF', //light purple
-        700: '#6bc1db',  //lightblue
+        700: '#54403c',  //blue-purple
         800: '#9979a9', //yellow
         900: '#ff6700' //orange
-      },
-      grayscale: {
-        50: '#ffffff',
-        100: '#efefef',
-        200: '#FDFDFF',
-        300: '#454444',
-        400: '#525252',
-        950: '#16161b',
       },
     },
   },

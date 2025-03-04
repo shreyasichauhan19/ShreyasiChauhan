@@ -21,20 +21,20 @@ const WorkExperienceCards = ({ jobTitle, company, description, date }) => {
         shadow-md shadow-black/5 dark:bg-neutral-700 dark:shadow-black/10">
           <div className="mb-4 flex justify-between">
             <a
-              className="text-2xl text-primary-700 transition duration-150 ease-in-out 
+              className="text-2xl text-primary-400 transition duration-150 ease-in-out 
               hover:text-info-600 pr-10 focus:text-info-600 active:text-info-700"
             >
               {jobTitle}
             </a>
             <a
               href="#!"
-              className="text-xl text-primary-700 text-info transition duration-150 
+              className="text-xl text-primary-400 text-info transition duration-150 
               ease-in-out hover:text-info-600 focus:text-info-600 active:text-info-700"
             >
               {company}
             </a>
           </div>
-          <p className="mb-6 text-grayscale-400"  style={{
+          <p className="mb-6 text-grayscale-500"  style={{
                 fontFamily: "Poppins, sans-serif",
                 fontSize: "14px", 
                 fontWeight: "400",

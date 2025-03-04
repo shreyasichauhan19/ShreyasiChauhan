@@ -5,9 +5,9 @@ const HeroText = () => {
 
   return (
     <div
-      className="noselect w-fit h-fit text-primary-500 absolute z-10 flex flex-col 
+      className="noselect w-fit h-fit text-primary-400 absolute z-10 flex flex-col 
       justify-center items-center rounded-[50%]"
-      id="repulse-div"
+      
     >
       <LazyMotion features={domAnimation} strict>
         <m.h1

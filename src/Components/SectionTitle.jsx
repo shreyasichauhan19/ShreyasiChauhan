@@ -11,19 +11,9 @@ const SectionTitle = (props) => {
         transition={{ duration: 0.6, type: "spring" }}
         className="text-primary-400 p-6 noselect"
       >
-        <span
-          className="opacity-70"
-          style={{
-            textTransform: "uppercase",
-            fontFamily: "JosefinSans",
-            fontWeight: "600",
-          }}
-        >
-          {subtitle}
-        </span>
         <h2
           className="tracking-wider text-7xl sm:text-8xl md:text-9xl"
-          style={{ fontFamily: "Morganite Black"}}
+          style={{ fontFamily: "Morganite Medium"}}
         >
           {title.split("").map((char, index) => {
             if(char === " ") {

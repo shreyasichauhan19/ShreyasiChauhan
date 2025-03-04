@@ -5,8 +5,9 @@ import PreloadMedia from "../Components/PreloadMedia";
 import { media } from "../Constants/constants";
 import App from "./App";
 import "./index.css";
-import "font-awesome/css/font-awesome.min.css";
 import "../../Fonts/Morganite/morganiteFont.css";
+import "../../Fonts/Zain/zainFont.css";
+
 
 
 
