@@ -130,10 +130,6 @@ export const navLinks = [
     title: 'Projects',
   },
   {
-    id: 'volunteerexperience',
-    title: 'Volunteer Experience',
-  },
-  {
     id: 'contact',
     title: 'Contact',
   },
