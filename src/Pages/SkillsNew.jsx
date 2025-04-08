@@ -124,7 +124,7 @@ const SkillsNew = () => {
     ];
 
   return (
-    <div id="skillsNew" className="w-[full] overflow-hidden-web flex justify-center">
+    <div id="skillsnew" className="w-[full] overflow-hidden-web flex justify-center">
       <div className="w-full xl:w-[70%] flex flex-col"> 
         <div className="mt-[15%]">
           <SectionTitle title="SKILLS"/>
