@@ -1,9 +1,13 @@
-// WorkExperiencePage.jsx
-import React from 'react';
+
+import React, { useState } from 'react';
 import SectionTitle from '../Components/SectionTitle';
 import WorkExperienceCards from '../Components/WorkExperienceCards';
+import FilterButtons from '../Components/FilterButtons';
+
 
 const WorkExperiencePage = () => {
+  const [selectedIndex, setSelectedIndex] = useState(0);
+
   const workExperienceData = [
     {
       jobTitle: 'Technical Business Analyst',
@@ -29,29 +33,36 @@ const WorkExperiencePage = () => {
       description: " - Optimized internal API with 400k+ calls, resolving a critical timeout bug. Adjusted timeout values for Apache Cassandra, ElasticSearch, MongoDB, and Redis to optimal values. Updated 10+ projects to use the latest version of JRuby (+ dependencies) ensuring the team is using the updated version and making their workflow seamless Collaborated with the team to investigate and resolve jar file compatibility issues caused by upgrading to Gradle v7.4. Fixed the bug by replacing Grubbyjar with Warble. Created, tested, and added an additional Flink cluster to reduce the load on the existing 4. Used Apache ZooKeeper to ensure the Task and Job Managers were communicating with each other.", // Add your description here
       date: 'May 2021 - September 2022',
     },
-    // Add more work experience data as needed
   ];
-
   return (
     <div id="workexperience" className="w-full flex justify-center overflow-hidden-web">
-      <div className="w-full h-[full] xl:w-[70%] flex flex-col">
-        <div className="w-full mt-[10%]">
-          <SectionTitle title="WORK EXPERIENCE"/>
-        </div>
-        <ol>
-          {workExperienceData.map((experience, index) => (
+      <div className="w-full xl:w-[70%] flex flex-col mt-[10%]">
+        <SectionTitle title="WORK EXPERIENCE" />
+  
+        {/* Main Content: Card on Left, Buttons on Right */}
+        <div className="flex flex-col md:flex-row gap-8 mt-8">
+          {/* Left: Work Experience Card */}
+          <div className="w-full md:w-2/3">
             <WorkExperienceCards
-              key={index}
-              jobTitle={experience.jobTitle}
-              company={experience.company}
-              description={experience.description}
-              date={experience.date}
+              jobTitle={workExperienceData[selectedIndex].jobTitle}
+              company={workExperienceData[selectedIndex].company}
+              description={workExperienceData[selectedIndex].description}
+              date={workExperienceData[selectedIndex].date}
             />
-          ))}
-        </ol>
+          </div>
+  
+          {/* Right: Filter Buttons */}
+      <FilterButtons
+      data={workExperienceData}
+      selectedIndex={selectedIndex}
+      onSelect={setSelectedIndex}
+            />
+
+        </div>
       </div>
     </div>
   );
+  
 };
 
 export default WorkExperiencePage;

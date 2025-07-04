@@ -22,7 +22,7 @@ const SectionTitle = (props) => {
           {subtitle}
         </span>
         <h2
-          className="tracking-wider text-7xl sm:text-8xl md:text-9xl"
+          className="tracking-wider text-4xl sm:text-5xl md:text-7xl"
           style={{ fontFamily: "Morganite Black"}}
         >
           {title.split("").map((char, index) => {
