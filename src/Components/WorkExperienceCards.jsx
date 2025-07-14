@@ -26,7 +26,7 @@ const WorkExperienceCards = ({ jobTitle, company, description, date }) => {
               {company}
             </a>
           </div>
-          <p className="mb-6 text-grayscale-400"  style={{
+          <p className="mb-6 text-grayscale-50"  style={{
                 fontFamily: "Poppins, sans-serif",
                 fontSize: "14px", 
                 fontWeight: "400",

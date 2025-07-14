@@ -31,7 +31,6 @@ const Navbar = () => {
       `}
     >
       <div className="w-full flex justify-between items-center max-w-7x1 mx-auto">
-        <DarkMode />
         <Link
           to="/"
           className="flex items-center gap-2"

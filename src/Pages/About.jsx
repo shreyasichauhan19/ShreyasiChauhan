@@ -27,13 +27,13 @@ const About = () => {
                 style={{ fontFamily: "Poppins, sans-serif" }}
                 className="text-grayscale-50 text-left flex flex-col gap-6"
               >
-                <span className="text-primary-500" style={ 
+                <span className="text-primary-50" style={ 
                   {fontFamily: 'Quicksand',  fontSize: "18px", fontWeight: "600"} }>
                     {introduction.text[0]}</span>
-                <span className="text-grayscale-400" style={ 
+                <span className="text-grayscale-50" style={ 
                   {fontFamily: 'Quicksand',  fontSize: "16px", fontWeight: "500"} }>
                     {introduction.text[1]}</span>
-                <span className="text-primary-500" style={ 
+                <span className="text-primary-50" style={ 
                   {fontFamily: 'Quicksand',  fontSize: "18px", fontWeight: "600"} }>
                     {introduction.text[2]}</span>
              
