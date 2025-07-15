@@ -113,10 +113,7 @@ const introduction = {
 };
 
 export const navLinks = [
-  {
-    id: 'about',
-    title: 'About',
-  },
+
   {
     id: 'workexperience',
     title: 'Work Experience',
