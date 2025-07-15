@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { styles } from "../../styles.js";
 import { navLinks } from "../../Constants/constants";
 import { menu, close } from "../../assets";
-import DarkMode from "../elements/DarkMode";
 
 const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(true); // Navbar visible initially
@@ -26,7 +25,7 @@ const Navbar = () => {
   return (
     <nav
       className={`
-        ${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary 
+        ${styles.paddingX} w-full flex  items-center py-5 fixed top-0 z-20 bg-primary 
         transition-transform duration-300 ${showNavbar ? "translate-y-0" : "-translate-y-full"}
       `}
     >
@@ -38,7 +37,7 @@ const Navbar = () => {
         >
           <p className="text-white text-[18px] font-bold cursor-pointer flex"></p>
         </Link>
-        <ul className="list-none hidden sm:flex flex-row gap-10 text-grayscale-300">
+        <ul className="list-none hidden sm:flex flex-row gap-10 text-primary-400">
           {navLinks.map((link) => (
             <li
               key={link.id}
