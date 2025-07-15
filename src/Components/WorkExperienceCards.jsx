@@ -9,7 +9,7 @@ const WorkExperienceCards = ({ jobTitle, company, description, date }) => {
         <div className="ml-[13px] h-[25px] w-[25px] items-center justify-center 
         rounded-full ">
         </div>
-        <div className="mb-10 ml-[8%] mr-[8%] block max-w-xl max-h-xl rounded-lg bg-neutral-50 p-6 
+        <div className=" mr-[8%] block max-w-xl max-h-xl rounded-lg bg-neutral-50 p-6 
         shadow-md shadow-black/5 dark:bg-neutral-700 dark:shadow-black/10">
           <div className="mb-4 flex justify-between">
             <a
