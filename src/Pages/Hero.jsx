@@ -24,7 +24,7 @@ const Hero = () => {
     rel="noopener noreferrer"
   >
     <button
-      className="bg-primary-400 text-white px-6 py-3 rounded-lg shadow-md 
+      className="bg-primary-400 text-grayscale-50 px-6 py-3 rounded-lg shadow-md 
       hover:bg-primary-700 transition duration-300"
       style={{ fontFamily: "Quicksand" }}
     >
@@ -39,7 +39,7 @@ const Hero = () => {
     rel="noopener noreferrer"
   >
     <button
-      className="bg-primary-400 text-white px-6 py-3 rounded-lg shadow-md 
+      className="bg-primary-400 text-grayscale-50 px-6 py-3 rounded-lg shadow-md 
       hover:bg-primary-700 transition duration-300"
       style={{ fontFamily: "Quicksand" }}
     >
